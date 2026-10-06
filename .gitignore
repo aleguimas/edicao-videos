@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+.env
+
+# Vídeos originais (pesados; ficam só na máquina)
+originais/
+
+# Mídia gerada pelo preparar.sh (regerável a partir do original)
+**/public/apresentacao.mp4
+**/public/apresentador-recorte.webm
+**/scripts/recorte/
+
+# Renders de vídeo
+*.mp4
+*.mov
+*.MOV
+out/
