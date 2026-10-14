@@ -14,6 +14,15 @@ Antes de escrever código Remotion, carregue a skill `remotion-best-practices`.
 - Logo: `logos/logo-simpli-fundo-escuro.png`
 - Do usuário: as **frases a destacar** (se não vierem, proponha 2–4 a partir da transcrição e confirme)
 
+## Dois estilos de frase
+
+| Estilo | Componente | Quando | Recorte |
+|---|---|---|---|
+| **Atrás** (vídeo "IA falhou") | `Destaque` | padrão; branco + verde Simplí, apresentador passa na frente | precisa do WebM com alfa |
+| **Na frente** (vídeo "freio") | `DestaqueFrente` | pedido de "branco com transparência / movimentação na frente do apresentador" | NÃO precisa: rode o preparo com `SO_CENTRO=1` e remova a camada do recorte |
+
+`DestaqueFrente`: Montserrat 900, branco `rgba(255,255,255,0.85)`, na altura do peito (`top: 1080`, abaixo do rosto), cada palavra sobe e entra em foco (blur→nítido), o bloco flutua devagar e sai subindo com desfoque.
+
 ## Padrão visual e sonoro (manter, salvo pedido contrário)
 
 | Item | Padrão |
@@ -29,7 +38,7 @@ Antes de escrever código Remotion, carregue a skill `remotion-best-practices`.
 | Saída das frases | a última frase termina ANTES da transição para a logo |
 | Áudio voz | ganho LINEAR para -15,5 LUFS, pico ≤ -1,5 dBTP (nada de compressor) |
 | Trilha | original gerada por script (sem direitos), volume 0.42 sob a voz (~12 dB abaixo), sobe para 1 na logo |
-| Encerramento | fade de 18 frames → logo centralizada em fundo `#0B0B0C`, 75 frames |
+| Encerramento | logo em fundo `#0B0B0C` (75 frames) entra POR CIMA do vídeo com fade de 18 frames, começando em Apresentação − 18. Não usar `TransitionSeries` aqui: ela remonta o vídeo e dá um piscar preto na prévia |
 
 ## Passo a passo
 
@@ -40,11 +49,15 @@ Antes de escrever código Remotion, carregue a skill `remotion-best-practices`.
 npx create-video@latest --yes --blank --no-tailwind <nome-do-video>
 cd <nome-do-video> && npm i
 npx remotion add @remotion/media @remotion/transitions @remotion/google-fonts @remotion/whisper-webgpu @huggingface/transformers mediabunny @mediabunny/server
+rm -rf .git                     # o repositório é a raiz editor-videos/
 rm src/Composition.tsx
 cp ../$SKILL/template/src/*.tsx ../$SKILL/template/src/fonte.ts src/
 mkdir -p scripts && cp ../$SKILL/scripts/transcrever.mts scripts/
 cp ../logos/logo-simpli-fundo-escuro.png public/
 ```
+**Fixe as versões do Remotion iguais às de `video-ia-falhou/package.json` (4.0.533, mediabunny 1.56.1) e copie o `remotion.config.ts` de lá.** A 4.0.535 derruba o Chrome headless neste Mac (crash de GPU → "Target closed" em qualquer still). Depois rode `npm i`.
+Para não baixar o Whisper de novo (~1,5 GB): `ln -sfn <editor-videos>/video-ia-falhou/node_modules/@huggingface/transformers/.cache node_modules/@huggingface/transformers/.cache`
+
 Abra o Studio logo em seguida (`npx remotion studio`, em background) e mantenha aberto.
 
 ### 2. Mídia (≈15 min para 13 s de 4K: rode em background)
@@ -52,6 +65,12 @@ Abra o Studio logo em seguida (`npx remotion studio`, em background) e mantenha 
 zsh ../$SKILL/scripts/preparar.sh ../originais/<VIDEO>.MOV
 ```
 Gera `public/apresentacao.mp4`, `public/apresentador-recorte.webm` e `scripts/centro.json`.
+- Estilo "na frente": `SO_CENTRO=1 zsh ...` (não grava PNGs nem WebM; muito mais rápido e leve).
+- `FAIXA_Y=0.15,0.40 MAX_X=1.0` para apresentador sentado sem plateia (padrão `0.38,0.52` / `0.6` é para palestra com plateia à direita).
+- Origem 1080x1920 (não 4K): zoom no máximo ~1,06–1,1 só para centralizar.
+- Apresentador sentado e parado: prefira enquadramento FIXO (centro médio). Seguir a máscara faz a câmera tremer com os gestos.
+
+**Corte de início/fim:** confira os primeiros e últimos segundos (quadros + loudness por segundo). Gravações costumam ter o apresentador se sentando no início e ruído depois da última fala. Corte com `trimBefore` no `<Video>` (ex.: `INICIO_ORIGINAL`).
 Avise o usuário: enquanto roda, o Studio mostra erro de mídia (arquivo sendo escrito). É esperado.
 
 ### 3. Transcrição e tempos das frases (em paralelo ao passo 2)
@@ -101,6 +120,7 @@ npx remotion render VideoConteudo ../<nome>-final.mp4 --codec=h264 --crf=16 --au
 
 ## Armadilhas já resolvidas
 
+- No zsh, `$var:l...` aplica o modificador `:l` (minúsculas) e engole o texto: sempre `${var}` antes de `:` em strings de filtro.
 - O ffmpeg do Remotion (`npx remotion ffmpeg`) NÃO tem `fps`, `alphamerge`, `ebur128` nem `hstack`. Use `-r 30`, gere o PNG com alfa no Swift e meça com `loudnorm=print_format=json`.
 - Um `pkill` no wrapper `npm exec` não mata o ffmpeg filho: confira com `ps` antes de reexecutar, senão dois processos escrevem no mesmo arquivo.
 - `<Video>` do `@remotion/media` não aceita `transparent`; o WebM VP9 `yuva420p` já sai com alfa.

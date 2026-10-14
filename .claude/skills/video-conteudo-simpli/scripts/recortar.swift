@@ -2,12 +2,21 @@
 //  - um PNG RGBA com apenas as pessoas (fundo transparente) em scripts/recorte/
 //  - as caixas das pessoas detectadas em scripts/pessoas.json
 // Uso: swift scripts/recortar.swift
+// Variáveis de ambiente opcionais:
+//   SO_CENTRO=1        não grava os PNGs (só centro.json/pessoas.json) — use
+//                      quando as frases ficam NA FRENTE do apresentador
+//   FAIXA_Y=0.38,0.52  faixa vertical (0–1) da cabeça/ombros para o centro
+//   MAX_X=0.6          ignora a máscara à direita desse x (ex.: plateia)
 import AVFoundation
 import CoreImage
 import Foundation
 import Vision
 
 let entrada = URL(fileURLWithPath: "public/apresentacao.mp4")
+let ambiente = ProcessInfo.processInfo.environment
+let soCentro = ambiente["SO_CENTRO"] == "1"
+let faixaY = (ambiente["FAIXA_Y"] ?? "0.38,0.52").split(separator: ",").map { Double($0)! }
+let maxX = Double(ambiente["MAX_X"] ?? "0.6")!
 let pastaSaida = URL(fileURLWithPath: "scripts/recorte", isDirectory: true)
 try? FileManager.default.createDirectory(at: pastaSaida, withIntermediateDirectories: true)
 
@@ -36,7 +45,7 @@ var centros: [Double] = []
 var indice = 0
 
 // Centro horizontal (0–1) do apresentador: média ponderada da máscara na faixa
-// da cabeça/ombros, à esquerda da plateia
+// da cabeça/ombros (FAIXA_Y), à esquerda de MAX_X
 func centroApresentador(_ buffer: CVPixelBuffer) -> Double {
   CVPixelBufferLockBaseAddress(buffer, .readOnly)
   defer { CVPixelBufferUnlockBaseAddress(buffer, .readOnly) }
@@ -46,8 +55,8 @@ func centroApresentador(_ buffer: CVPixelBuffer) -> Double {
   let base = CVPixelBufferGetBaseAddress(buffer)!.assumingMemoryBound(to: UInt8.self)
   var soma = 0.0
   var peso = 0.0
-  for y in Int(Double(h) * 0.38)..<Int(Double(h) * 0.52) {
-    for x in 0..<Int(Double(w) * 0.6) {
+  for y in Int(Double(h) * faixaY[0])..<Int(Double(h) * faixaY[1]) {
+    for x in 0..<Int(Double(w) * maxX) {
       let v = Double(base[y * bpr + x]) / 255
       soma += v * Double(x)
       peso += v
@@ -67,6 +76,8 @@ while let amostra = saida.copyNextSampleBuffer() {
 
   if let mascaraBuffer = segmentacao.results?.first?.pixelBuffer {
     centros.append(centroApresentador(mascaraBuffer))
+  }
+  if !soCentro, let mascaraBuffer = segmentacao.results?.first?.pixelBuffer {
     var mascara = CIImage(cvPixelBuffer: mascaraBuffer)
     mascara = mascara.transformed(by: CGAffineTransform(
       scaleX: largura / mascara.extent.width,

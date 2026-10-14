@@ -1,38 +1,42 @@
-import { linearTiming, TransitionSeries } from "@remotion/transitions";
-import { fade } from "@remotion/transitions/fade";
 import { Audio } from "@remotion/media";
-import { interpolate, staticFile, useVideoConfig } from "remotion";
+import {
+  interpolate,
+  staticFile,
+  useCurrentFrame,
+  useVideoConfig,
+} from "remotion";
 import { Apresentacao } from "./Apresentacao";
 import { Encerramento } from "./Encerramento";
 
+// Final: o vídeo do apresentador toca até o fim sem ser remontado, e a logo
+// entra POR CIMA dele no frame (Apresentação − 18) com fade de 18 frames. Assim não
+// há quadro preto entre as cenas (a TransitionSeries remontava o vídeo).
 export const VideoConteudo: React.FC = () => {
   const { fps } = useVideoConfig();
+  const frame = useCurrentFrame();
 
   return (
     <>
-      <TransitionSeries name="Linha do tempo">
-        <TransitionSeries.Sequence
-          name="Apresentação"
-          durationInFrames={300}
-          premountFor={fps}
-        >
-          <Apresentacao />
-        </TransitionSeries.Sequence>
-        <TransitionSeries.Transition
-          presentation={fade()}
-          timing={linearTiming({ durationInFrames: 18 })}
-        />
-        <TransitionSeries.Sequence
-          name="Encerramento"
-          durationInFrames={75}
-          premountFor={fps}
-        >
-          <Encerramento corFundo="#0B0B0C" />
-        </TransitionSeries.Sequence>
-      </TransitionSeries>
-      {/* Trilha original: ~12 dB abaixo da voz, sobe na entrada da logo.
-          Keyframes: [0, transição - 6, transição + 12], onde
-          transição = duração da Apresentação - 18 (aqui 300 - 18 = 282) */}
+      <Apresentacao
+        name="Apresentação"
+        durationInFrames={300}
+        premountFor={fps}
+      />
+      <Encerramento
+        name="Encerramento"
+        from={282}
+        durationInFrames={75}
+        premountFor={fps}
+        corFundo="#0B0B0C"
+        style={{
+          opacity: interpolate(frame, [282, 300], [0, 1], {
+            extrapolateLeft: "clamp",
+            extrapolateRight: "clamp",
+          }),
+        }}
+      />
+      {/* Trilha original: ~12 dB abaixo da voz, sobe na entrada da logo
+          (keyframes: [0, entrada da logo - 6, entrada da logo + 12]) */}
       <Audio
         name="Trilha"
         src={staticFile("trilha.wav")}

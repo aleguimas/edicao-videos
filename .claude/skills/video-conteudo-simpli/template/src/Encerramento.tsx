@@ -37,12 +37,12 @@ const EncerramentoInner: React.FC<EncerramentoProps> = ({ corFundo, style }) => 
         style={{
           width: 640,
           height: 256,
-          opacity: interpolate(frame, [0.2 * fps, 0.9 * fps], [0, 1], {
+          opacity: interpolate(frame, [0, 0.5 * fps], [0, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
             easing: Easing.bezier(0.16, 1, 0.3, 1),
           }),
-          scale: interpolate(frame, [0.2 * fps, 1.2 * fps], [0.92, 1], {
+          scale: interpolate(frame, [0, 1 * fps], [0.92, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
             easing: Easing.bezier(0.16, 1, 0.3, 1),
