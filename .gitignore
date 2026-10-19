@@ -15,3 +15,13 @@ originais/
 *.mov
 *.MOV
 out/
+
+# Workshop: caches e mídia regerável (transcrição, trechos cortados, trilhas)
+**/transcricao/audio-16k.f32
+**/transcricao/log*.txt
+**/transcricao/execucoes.txt
+**/public/resumo/
+# Músicas baixadas pelo usuário (licença de terceiros)
+musicas/
+# Pacotes de skill gerados para download
+*.zip

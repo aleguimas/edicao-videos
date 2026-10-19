@@ -1,0 +1,639 @@
+[
+ {
+  "text": "Estou",
+  "startMs": 1500,
+  "endMs": 1940,
+  "timestampMs": 1720,
+  "confidence": null
+ },
+ {
+  "text": " aqui",
+  "startMs": 1940,
+  "endMs": 2300,
+  "timestampMs": 2120,
+  "confidence": null
+ },
+ {
+  "text": " na",
+  "startMs": 2300,
+  "endMs": 2800,
+  "timestampMs": 2550,
+  "confidence": null
+ },
+ {
+  "text": " CDL",
+  "startMs": 2800,
+  "endMs": 3240,
+  "timestampMs": 3020,
+  "confidence": null
+ },
+ {
+  "text": " Cuiabá.",
+  "startMs": 3240,
+  "endMs": 3820,
+  "timestampMs": 3530,
+  "confidence": null
+ },
+ {
+  "text": " Finalizamos",
+  "startMs": 4620,
+  "endMs": 5660,
+  "timestampMs": 5140,
+  "confidence": null
+ },
+ {
+  "text": " aí",
+  "startMs": 5660,
+  "endMs": 5960,
+  "timestampMs": 5810,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 5960,
+  "endMs": 6420,
+  "timestampMs": 6190,
+  "confidence": null
+ },
+ {
+  "text": " workshop",
+  "startMs": 6420,
+  "endMs": 6860,
+  "timestampMs": 6640,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 6860,
+  "endMs": 7240,
+  "timestampMs": 7050,
+  "confidence": null
+ },
+ {
+  "text": " inteligência",
+  "startMs": 7240,
+  "endMs": 8280,
+  "timestampMs": 7760,
+  "confidence": null
+ },
+ {
+  "text": " artificial",
+  "startMs": 8280,
+  "endMs": 9620,
+  "timestampMs": 8950,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 9620,
+  "endMs": 9860,
+  "timestampMs": 9740,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 9860,
+  "endMs": 10180,
+  "timestampMs": 10020,
+  "confidence": null
+ },
+ {
+  "text": " facilitador",
+  "startMs": 10180,
+  "endMs": 11240,
+  "timestampMs": 10710,
+  "confidence": null
+ },
+ {
+  "text": " Alexandre.",
+  "startMs": 11240,
+  "endMs": 11660,
+  "timestampMs": 11450,
+  "confidence": null
+ },
+ {
+  "text": " Esse",
+  "startMs": 12800,
+  "endMs": 13820,
+  "timestampMs": 13310,
+  "confidence": null
+ },
+ {
+  "text": " workshop,",
+  "startMs": 13820,
+  "endMs": 14420,
+  "timestampMs": 14120,
+  "confidence": null
+ },
+ {
+  "text": " ele",
+  "startMs": 14440,
+  "endMs": 14740,
+  "timestampMs": 14590,
+  "confidence": null
+ },
+ {
+  "text": " faz",
+  "startMs": 14740,
+  "endMs": 15360,
+  "timestampMs": 15050,
+  "confidence": null
+ },
+ {
+  "text": " parte",
+  "startMs": 15360,
+  "endMs": 15720,
+  "timestampMs": 15540,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 15720,
+  "endMs": 16420,
+  "timestampMs": 16070,
+  "confidence": null
+ },
+ {
+  "text": " programa",
+  "startMs": 16420,
+  "endMs": 17040,
+  "timestampMs": 16730,
+  "confidence": null
+ },
+ {
+  "text": " Conecta",
+  "startMs": 17040,
+  "endMs": 17640,
+  "timestampMs": 17340,
+  "confidence": null
+ },
+ {
+  "text": " Negócios",
+  "startMs": 17640,
+  "endMs": 18560,
+  "timestampMs": 18100,
+  "confidence": null
+ },
+ {
+  "text": " 2026,",
+  "startMs": 18560,
+  "endMs": 19600,
+  "timestampMs": 19080,
+  "confidence": null
+ },
+ {
+  "text": " uma",
+  "startMs": 20400,
+  "endMs": 20700,
+  "timestampMs": 20550,
+  "confidence": null
+ },
+ {
+  "text": " parceria",
+  "startMs": 20700,
+  "endMs": 21320,
+  "timestampMs": 21010,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 21320,
+  "endMs": 21480,
+  "timestampMs": 21400,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 21480,
+  "endMs": 21940,
+  "timestampMs": 21710,
+  "confidence": null
+ },
+ {
+  "text": " CDL",
+  "startMs": 21940,
+  "endMs": 22460,
+  "timestampMs": 22200,
+  "confidence": null
+ },
+ {
+  "text": " Cuiabá",
+  "startMs": 22460,
+  "endMs": 23440,
+  "timestampMs": 22950,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 23440,
+  "endMs": 23660,
+  "timestampMs": 23550,
+  "confidence": null
+ },
+ {
+  "text": " Sebrae",
+  "startMs": 23660,
+  "endMs": 24160,
+  "timestampMs": 23910,
+  "confidence": null
+ },
+ {
+  "text": " Mato",
+  "startMs": 24160,
+  "endMs": 24520,
+  "timestampMs": 24340,
+  "confidence": null
+ },
+ {
+  "text": " Grosso.",
+  "startMs": 24520,
+  "endMs": 24760,
+  "timestampMs": 24640,
+  "confidence": null
+ },
+ {
+  "text": " Foram",
+  "startMs": 25320,
+  "endMs": 25800,
+  "timestampMs": 25560,
+  "confidence": null
+ },
+ {
+  "text": " dois",
+  "startMs": 25800,
+  "endMs": 26340,
+  "timestampMs": 26070,
+  "confidence": null
+ },
+ {
+  "text": " dias",
+  "startMs": 26340,
+  "endMs": 26620,
+  "timestampMs": 26480,
+  "confidence": null
+ },
+ {
+  "text": " aí",
+  "startMs": 26620,
+  "endMs": 26820,
+  "timestampMs": 26720,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 26820,
+  "endMs": 27360,
+  "timestampMs": 27090,
+  "confidence": null
+ },
+ {
+  "text": " muito",
+  "startMs": 27360,
+  "endMs": 27620,
+  "timestampMs": 27490,
+  "confidence": null
+ },
+ {
+  "text": " aprendizado,",
+  "startMs": 27620,
+  "endMs": 29020,
+  "timestampMs": 28320,
+  "confidence": null
+ },
+ {
+  "text": " conhecimento.",
+  "startMs": 29400,
+  "endMs": 29980,
+  "timestampMs": 29690,
+  "confidence": null
+ },
+ {
+  "text": " Foram",
+  "startMs": 25320,
+  "endMs": 25800,
+  "timestampMs": 25560,
+  "confidence": null
+ },
+ {
+  "text": " dois",
+  "startMs": 25800,
+  "endMs": 26340,
+  "timestampMs": 26070,
+  "confidence": null
+ },
+ {
+  "text": " dias",
+  "startMs": 26340,
+  "endMs": 26600,
+  "timestampMs": 26470,
+  "confidence": null
+ },
+ {
+  "text": " aí",
+  "startMs": 26600,
+  "endMs": 26820,
+  "timestampMs": 26710,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 26820,
+  "endMs": 27360,
+  "timestampMs": 27090,
+  "confidence": null
+ },
+ {
+  "text": " muito",
+  "startMs": 27360,
+  "endMs": 27680,
+  "timestampMs": 27520,
+  "confidence": null
+ },
+ {
+  "text": " aprendizado,",
+  "startMs": 27680,
+  "endMs": 29240,
+  "timestampMs": 28460,
+  "confidence": null
+ },
+ {
+  "text": " conhecimento,",
+  "startMs": 29400,
+  "endMs": 30280,
+  "timestampMs": 29840,
+  "confidence": null
+ },
+ {
+  "text": " insight,",
+  "startMs": 30740,
+  "endMs": 31200,
+  "timestampMs": 30970,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 31600,
+  "endMs": 32000,
+  "timestampMs": 31800,
+  "confidence": null
+ },
+ {
+  "text": " vai",
+  "startMs": 32000,
+  "endMs": 33560,
+  "timestampMs": 32780,
+  "confidence": null
+ },
+ {
+  "text": " levar,",
+  "startMs": 33560,
+  "endMs": 34680,
+  "timestampMs": 34120,
+  "confidence": null
+ },
+ {
+  "text": " proporcionar",
+  "startMs": 34900,
+  "endMs": 35680,
+  "timestampMs": 35290,
+  "confidence": null
+ },
+ {
+  "text": " novidades",
+  "startMs": 35680,
+  "endMs": 36420,
+  "timestampMs": 36050,
+  "confidence": null
+ },
+ {
+  "text": " aí",
+  "startMs": 36420,
+  "endMs": 36600,
+  "timestampMs": 36510,
+  "confidence": null
+ },
+ {
+  "text": " para",
+  "startMs": 36600,
+  "endMs": 36640,
+  "timestampMs": 36620,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 36640,
+  "endMs": 36880,
+  "timestampMs": 36760,
+  "confidence": null
+ },
+ {
+  "text": " nosso",
+  "startMs": 36880,
+  "endMs": 37300,
+  "timestampMs": 37090,
+  "confidence": null
+ },
+ {
+  "text": " negócio.",
+  "startMs": 37300,
+  "endMs": 37560,
+  "timestampMs": 37430,
+  "confidence": null
+ },
+ {
+  "text": " Entendo",
+  "startMs": 37960,
+  "endMs": 38700,
+  "timestampMs": 38330,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 38700,
+  "endMs": 39080,
+  "timestampMs": 38890,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 39080,
+  "endMs": 39220,
+  "timestampMs": 39150,
+  "confidence": null
+ },
+ {
+  "text": " IA",
+  "startMs": 39220,
+  "endMs": 40740,
+  "timestampMs": 39980,
+  "confidence": null
+ },
+ {
+  "text": " veio",
+  "startMs": 40740,
+  "endMs": 41240,
+  "timestampMs": 40990,
+  "confidence": null
+ },
+ {
+  "text": " para",
+  "startMs": 41240,
+  "endMs": 41960,
+  "timestampMs": 41600,
+  "confidence": null
+ },
+ {
+  "text": " fortalecer",
+  "startMs": 41960,
+  "endMs": 43420,
+  "timestampMs": 42690,
+  "confidence": null
+ },
+ {
+  "text": " ainda",
+  "startMs": 43420,
+  "endMs": 43820,
+  "timestampMs": 43620,
+  "confidence": null
+ },
+ {
+  "text": " mais",
+  "startMs": 43820,
+  "endMs": 44080,
+  "timestampMs": 43950,
+  "confidence": null
+ },
+ {
+  "text": " os",
+  "startMs": 44080,
+  "endMs": 44460,
+  "timestampMs": 44270,
+  "confidence": null
+ },
+ {
+  "text": " nossos",
+  "startMs": 44460,
+  "endMs": 44820,
+  "timestampMs": 44640,
+  "confidence": null
+ },
+ {
+  "text": " negócios.",
+  "startMs": 44820,
+  "endMs": 45260,
+  "timestampMs": 45040,
+  "confidence": null
+ },
+ {
+  "text": " E",
+  "startMs": 45740,
+  "endMs": 45920,
+  "timestampMs": 45830,
+  "confidence": null
+ },
+ {
+  "text": " para",
+  "startMs": 45920,
+  "endMs": 46420,
+  "timestampMs": 46170,
+  "confidence": null
+ },
+ {
+  "text": " isso,",
+  "startMs": 46420,
+  "endMs": 46640,
+  "timestampMs": 46530,
+  "confidence": null
+ },
+ {
+  "text": " esse",
+  "startMs": 47060,
+  "endMs": 47520,
+  "timestampMs": 47290,
+  "confidence": null
+ },
+ {
+  "text": " workshop",
+  "startMs": 47520,
+  "endMs": 48220,
+  "timestampMs": 47870,
+  "confidence": null
+ },
+ {
+  "text": " veio",
+  "startMs": 48220,
+  "endMs": 48840,
+  "timestampMs": 48530,
+  "confidence": null
+ },
+ {
+  "text": " porque",
+  "startMs": 48840,
+  "endMs": 50120,
+  "timestampMs": 49480,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 50120,
+  "endMs": 50700,
+  "timestampMs": 50410,
+  "confidence": null
+ },
+ {
+  "text": " facilitador",
+  "startMs": 50700,
+  "endMs": 51500,
+  "timestampMs": 51100,
+  "confidence": null
+ },
+ {
+  "text": " vem",
+  "startMs": 51500,
+  "endMs": 51900,
+  "timestampMs": 51700,
+  "confidence": null
+ },
+ {
+  "text": " trazendo",
+  "startMs": 51900,
+  "endMs": 52500,
+  "timestampMs": 52200,
+  "confidence": null
+ },
+ {
+  "text": " novidade,",
+  "startMs": 52500,
+  "endMs": 53060,
+  "timestampMs": 52780,
+  "confidence": null
+ },
+ {
+  "text": " ensinando,",
+  "startMs": 53240,
+  "endMs": 53900,
+  "timestampMs": 53570,
+  "confidence": null
+ },
+ {
+  "text": " manusear",
+  "startMs": 54300,
+  "endMs": 54960,
+  "timestampMs": 54630,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 54960,
+  "endMs": 55140,
+  "timestampMs": 55050,
+  "confidence": null
+ },
+ {
+  "text": " ferramentas.",
+  "startMs": 55140,
+  "endMs": 55880,
+  "timestampMs": 55510,
+  "confidence": null
+ }
+]
