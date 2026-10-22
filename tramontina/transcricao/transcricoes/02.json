@@ -1,0 +1,457 @@
+[
+ {
+  "text": "O",
+  "startMs": 700,
+  "endMs": 900,
+  "timestampMs": 800,
+  "confidence": null
+ },
+ {
+  "text": " ponto",
+  "startMs": 900,
+  "endMs": 1220,
+  "timestampMs": 1060,
+  "confidence": null
+ },
+ {
+  "text": " legal",
+  "startMs": 1220,
+  "endMs": 1560,
+  "timestampMs": 1390,
+  "confidence": null
+ },
+ {
+  "text": " sobre",
+  "startMs": 1560,
+  "endMs": 1680,
+  "timestampMs": 1620,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 1680,
+  "endMs": 1760,
+  "timestampMs": 1720,
+  "confidence": null
+ },
+ {
+  "text": " Tramontina,",
+  "startMs": 1760,
+  "endMs": 2320,
+  "timestampMs": 2040,
+  "confidence": null
+ },
+ {
+  "text": " né?",
+  "startMs": 2460,
+  "endMs": 2520,
+  "timestampMs": 2490,
+  "confidence": null
+ },
+ {
+  "text": " Desde",
+  "startMs": 3460,
+  "endMs": 4220,
+  "timestampMs": 3840,
+  "confidence": null
+ },
+ {
+  "text": " 2006,",
+  "startMs": 4220,
+  "endMs": 4480,
+  "timestampMs": 4350,
+  "confidence": null
+ },
+ {
+  "text": " né,",
+  "startMs": 4600,
+  "endMs": 4620,
+  "timestampMs": 4610,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 4720,
+  "endMs": 4880,
+  "timestampMs": 4800,
+  "confidence": null
+ },
+ {
+  "text": " eles",
+  "startMs": 4880,
+  "endMs": 5240,
+  "timestampMs": 5060,
+  "confidence": null
+ },
+ {
+  "text": " começaram",
+  "startMs": 5240,
+  "endMs": 5600,
+  "timestampMs": 5420,
+  "confidence": null
+ },
+ {
+  "text": " esse",
+  "startMs": 5600,
+  "endMs": 6220,
+  "timestampMs": 5910,
+  "confidence": null
+ },
+ {
+  "text": " processo",
+  "startMs": 6220,
+  "endMs": 6960,
+  "timestampMs": 6590,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 6960,
+  "endMs": 7240,
+  "timestampMs": 7100,
+  "confidence": null
+ },
+ {
+  "text": " automatização",
+  "startMs": 7240,
+  "endMs": 7800,
+  "timestampMs": 7520,
+  "confidence": null
+ },
+ {
+  "text": " da",
+  "startMs": 7800,
+  "endMs": 8040,
+  "timestampMs": 7920,
+  "confidence": null
+ },
+ {
+  "text": " fábrica.",
+  "startMs": 8040,
+  "endMs": 8260,
+  "timestampMs": 8150,
+  "confidence": null
+ },
+ {
+  "text": " Então,",
+  "startMs": 8480,
+  "endMs": 8520,
+  "timestampMs": 8500,
+  "confidence": null
+ },
+ {
+  "text": " não",
+  "startMs": 8580,
+  "endMs": 8660,
+  "timestampMs": 8620,
+  "confidence": null
+ },
+ {
+  "text": " é",
+  "startMs": 8660,
+  "endMs": 9020,
+  "timestampMs": 8840,
+  "confidence": null
+ },
+ {
+  "text": " nada",
+  "startMs": 9020,
+  "endMs": 9440,
+  "timestampMs": 9230,
+  "confidence": null
+ },
+ {
+  "text": " novo.",
+  "startMs": 9440,
+  "endMs": 9480,
+  "timestampMs": 9460,
+  "confidence": null
+ },
+ {
+  "text": " E",
+  "startMs": 10900,
+  "endMs": 11460,
+  "timestampMs": 11180,
+  "confidence": null
+ },
+ {
+  "text": " bacana",
+  "startMs": 11460,
+  "endMs": 12040,
+  "timestampMs": 11750,
+  "confidence": null
+ },
+ {
+  "text": " também",
+  "startMs": 12040,
+  "endMs": 12540,
+  "timestampMs": 12290,
+  "confidence": null
+ },
+ {
+  "text": " que,",
+  "startMs": 12540,
+  "endMs": 12840,
+  "timestampMs": 12690,
+  "confidence": null
+ },
+ {
+  "text": " apesar",
+  "startMs": 14040,
+  "endMs": 14380,
+  "timestampMs": 14210,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 14380,
+  "endMs": 14760,
+  "timestampMs": 14570,
+  "confidence": null
+ },
+ {
+  "text": " toda",
+  "startMs": 14760,
+  "endMs": 15140,
+  "timestampMs": 14950,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 15140,
+  "endMs": 15340,
+  "timestampMs": 15240,
+  "confidence": null
+ },
+ {
+  "text": " automação,",
+  "startMs": 15340,
+  "endMs": 16140,
+  "timestampMs": 15740,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 17240,
+  "endMs": 17700,
+  "timestampMs": 17470,
+  "confidence": null
+ },
+ {
+  "text": " empresa",
+  "startMs": 17700,
+  "endMs": 17940,
+  "timestampMs": 17820,
+  "confidence": null
+ },
+ {
+  "text": " só",
+  "startMs": 17940,
+  "endMs": 18100,
+  "timestampMs": 18020,
+  "confidence": null
+ },
+ {
+  "text": " fez",
+  "startMs": 18100,
+  "endMs": 18280,
+  "timestampMs": 18190,
+  "confidence": null
+ },
+ {
+  "text": " crescer",
+  "startMs": 18280,
+  "endMs": 18520,
+  "timestampMs": 18400,
+  "confidence": null
+ },
+ {
+  "text": " em",
+  "startMs": 18520,
+  "endMs": 18700,
+  "timestampMs": 18610,
+  "confidence": null
+ },
+ {
+  "text": " número",
+  "startMs": 18700,
+  "endMs": 18840,
+  "timestampMs": 18770,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 18840,
+  "endMs": 19120,
+  "timestampMs": 18980,
+  "confidence": null
+ },
+ {
+  "text": " colaboradores.",
+  "startMs": 19120,
+  "endMs": 19540,
+  "timestampMs": 19330,
+  "confidence": null
+ },
+ {
+  "text": " Esse",
+  "startMs": 20880,
+  "endMs": 21180,
+  "timestampMs": 21030,
+  "confidence": null
+ },
+ {
+  "text": " mês",
+  "startMs": 21180,
+  "endMs": 21520,
+  "timestampMs": 21350,
+  "confidence": null
+ },
+ {
+  "text": " agora,",
+  "startMs": 21520,
+  "endMs": 21700,
+  "timestampMs": 21610,
+  "confidence": null
+ },
+ {
+  "text": " eles",
+  "startMs": 21800,
+  "endMs": 22000,
+  "timestampMs": 21900,
+  "confidence": null
+ },
+ {
+  "text": " estão",
+  "startMs": 22000,
+  "endMs": 22280,
+  "timestampMs": 22140,
+  "confidence": null
+ },
+ {
+  "text": " chegando",
+  "startMs": 22280,
+  "endMs": 23480,
+  "timestampMs": 22880,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 23480,
+  "endMs": 23800,
+  "timestampMs": 23640,
+  "confidence": null
+ },
+ {
+  "text": " mil",
+  "startMs": 23800,
+  "endMs": 24220,
+  "timestampMs": 24010,
+  "confidence": null
+ },
+ {
+  "text": " colaboradores",
+  "startMs": 24220,
+  "endMs": 24880,
+  "timestampMs": 24550,
+  "confidence": null
+ },
+ {
+  "text": " dentro",
+  "startMs": 24880,
+  "endMs": 25000,
+  "timestampMs": 24940,
+  "confidence": null
+ },
+ {
+  "text": " da",
+  "startMs": 25000,
+  "endMs": 25200,
+  "timestampMs": 25100,
+  "confidence": null
+ },
+ {
+  "text": " fábrica",
+  "startMs": 25200,
+  "endMs": 26560,
+  "timestampMs": 25880,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 26560,
+  "endMs": 26800,
+  "timestampMs": 26680,
+  "confidence": null
+ },
+ {
+  "text": " dando",
+  "startMs": 26800,
+  "endMs": 26940,
+  "timestampMs": 26870,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 26940,
+  "endMs": 27200,
+  "timestampMs": 27070,
+  "confidence": null
+ },
+ {
+  "text": " importância",
+  "startMs": 27200,
+  "endMs": 27880,
+  "timestampMs": 27540,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 27880,
+  "endMs": 28000,
+  "timestampMs": 27940,
+  "confidence": null
+ },
+ {
+  "text": " isso",
+  "startMs": 28000,
+  "endMs": 28220,
+  "timestampMs": 28110,
+  "confidence": null
+ },
+ {
+  "text": " daí,",
+  "startMs": 28220,
+  "endMs": 28440,
+  "timestampMs": 28330,
+  "confidence": null
+ },
+ {
+  "text": " então",
+  "startMs": 28560,
+  "endMs": 29780,
+  "timestampMs": 29170,
+  "confidence": null
+ },
+ {
+  "text": " muito",
+  "startMs": 29780,
+  "endMs": 30040,
+  "timestampMs": 29910,
+  "confidence": null
+ },
+ {
+  "text": " bacana,",
+  "startMs": 30040,
+  "endMs": 30340,
+  "timestampMs": 30190,
+  "confidence": null
+ },
+ {
+  "text": " né?",
+  "startMs": 30440,
+  "endMs": 30660,
+  "timestampMs": 30550,
+  "confidence": null
+ }
+]
