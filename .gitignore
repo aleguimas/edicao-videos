@@ -25,3 +25,5 @@ out/
 musicas/
 # Pacotes de skill gerados para download
 *.zip
+# Trilhas preparadas a partir das músicas (licença de terceiros; regeráveis pelos scripts)
+**/public/**/*.wav

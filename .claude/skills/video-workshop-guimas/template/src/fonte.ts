@@ -48,10 +48,14 @@ export const CANTO_INF = "#5B4BC4";
 export const CINZA_SUB = "#A9B1CC";
 export const CINZA_RODAPE = "#8E97BD";
 
-// texto com degradê (background-clip)
+// texto com degradê (background-clip). O fundo só é pintado dentro da caixa do elemento:
+// com linhas justas (line-height < 1) os acentos (Ô, Á, Í…) ficam acima da caixa e somem.
+// O padding estende a caixa para cima/lados e a margem negativa devolve o espaço no layout.
 export const textoDegrade: React.CSSProperties = {
   backgroundImage: DEGRADE_TEXTO,
   WebkitBackgroundClip: "text",
   backgroundClip: "text",
   color: "transparent",
+  padding: "0.2em 0.06em 0.06em",
+  margin: "-0.2em -0.06em -0.06em",
 };

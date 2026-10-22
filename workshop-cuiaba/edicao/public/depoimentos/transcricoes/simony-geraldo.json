@@ -1,0 +1,730 @@
+[
+ {
+  "text": "Olá,",
+  "startMs": 300,
+  "endMs": 560,
+  "timestampMs": 430,
+  "confidence": null
+ },
+ {
+  "text": " eu",
+  "startMs": 560,
+  "endMs": 680,
+  "timestampMs": 620,
+  "confidence": null
+ },
+ {
+  "text": " sou",
+  "startMs": 680,
+  "endMs": 820,
+  "timestampMs": 750,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 820,
+  "endMs": 1000,
+  "timestampMs": 910,
+  "confidence": null
+ },
+ {
+  "text": " Simone,",
+  "startMs": 1000,
+  "endMs": 1360,
+  "timestampMs": 1180,
+  "confidence": null
+ },
+ {
+  "text": " gestora",
+  "startMs": 1440,
+  "endMs": 1980,
+  "timestampMs": 1710,
+  "confidence": null
+ },
+ {
+  "text": " regional",
+  "startMs": 1980,
+  "endMs": 2200,
+  "timestampMs": 2090,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 2200,
+  "endMs": 2320,
+  "timestampMs": 2260,
+  "confidence": null
+ },
+ {
+  "text": " varejo",
+  "startMs": 2320,
+  "endMs": 2680,
+  "timestampMs": 2500,
+  "confidence": null
+ },
+ {
+  "text": " no",
+  "startMs": 2680,
+  "endMs": 2820,
+  "timestampMs": 2750,
+  "confidence": null
+ },
+ {
+  "text": " Sebrae",
+  "startMs": 2820,
+  "endMs": 3060,
+  "timestampMs": 2940,
+  "confidence": null
+ },
+ {
+  "text": " Mato",
+  "startMs": 3060,
+  "endMs": 3360,
+  "timestampMs": 3210,
+  "confidence": null
+ },
+ {
+  "text": " Grosso,",
+  "startMs": 3360,
+  "endMs": 3640,
+  "timestampMs": 3500,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 4180,
+  "endMs": 4380,
+  "timestampMs": 4280,
+  "confidence": null
+ },
+ {
+  "text": " hoje",
+  "startMs": 4380,
+  "endMs": 4500,
+  "timestampMs": 4440,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 4500,
+  "endMs": 4620,
+  "timestampMs": 4560,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 4620,
+  "endMs": 4780,
+  "timestampMs": 4700,
+  "confidence": null
+ },
+ {
+  "text": " está",
+  "startMs": 4780,
+  "endMs": 4920,
+  "timestampMs": 4850,
+  "confidence": null
+ },
+ {
+  "text": " encerrando",
+  "startMs": 4920,
+  "endMs": 5500,
+  "timestampMs": 5210,
+  "confidence": null
+ },
+ {
+  "text": " duas",
+  "startMs": 5500,
+  "endMs": 5760,
+  "timestampMs": 5630,
+  "confidence": null
+ },
+ {
+  "text": " manhãs",
+  "startMs": 5760,
+  "endMs": 6180,
+  "timestampMs": 5970,
+  "confidence": null
+ },
+ {
+  "text": " muito",
+  "startMs": 6180,
+  "endMs": 6500,
+  "timestampMs": 6340,
+  "confidence": null
+ },
+ {
+  "text": " intensas",
+  "startMs": 6500,
+  "endMs": 6860,
+  "timestampMs": 6680,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 7340,
+  "endMs": 7480,
+  "timestampMs": 7410,
+  "confidence": null
+ },
+ {
+  "text": " os",
+  "startMs": 7480,
+  "endMs": 7720,
+  "timestampMs": 7600,
+  "confidence": null
+ },
+ {
+  "text": " empresários",
+  "startMs": 7720,
+  "endMs": 8120,
+  "timestampMs": 7920,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 8120,
+  "endMs": 8300,
+  "timestampMs": 8210,
+  "confidence": null
+ },
+ {
+  "text": " Projeto",
+  "startMs": 8300,
+  "endMs": 8660,
+  "timestampMs": 8480,
+  "confidence": null
+ },
+ {
+  "text": " Conecta",
+  "startMs": 8660,
+  "endMs": 9100,
+  "timestampMs": 8880,
+  "confidence": null
+ },
+ {
+  "text": " Negócios,",
+  "startMs": 9100,
+  "endMs": 9540,
+  "timestampMs": 9320,
+  "confidence": null
+ },
+ {
+  "text": " uma",
+  "startMs": 10100,
+  "endMs": 10300,
+  "timestampMs": 10200,
+  "confidence": null
+ },
+ {
+  "text": " parceria",
+  "startMs": 10300,
+  "endMs": 10760,
+  "timestampMs": 10530,
+  "confidence": null
+ },
+ {
+  "text": " da",
+  "startMs": 10760,
+  "endMs": 11040,
+  "timestampMs": 10900,
+  "confidence": null
+ },
+ {
+  "text": " CDL",
+  "startMs": 11040,
+  "endMs": 11320,
+  "timestampMs": 11180,
+  "confidence": null
+ },
+ {
+  "text": " Cuiabá",
+  "startMs": 11320,
+  "endMs": 11840,
+  "timestampMs": 11580,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 11840,
+  "endMs": 12000,
+  "timestampMs": 11920,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 12000,
+  "endMs": 12020,
+  "timestampMs": 12010,
+  "confidence": null
+ },
+ {
+  "text": " Sebrae",
+  "startMs": 12020,
+  "endMs": 12320,
+  "timestampMs": 12170,
+  "confidence": null
+ },
+ {
+  "text": " Mato",
+  "startMs": 12320,
+  "endMs": 12600,
+  "timestampMs": 12460,
+  "confidence": null
+ },
+ {
+  "text": " Grosso.",
+  "startMs": 12600,
+  "endMs": 12840,
+  "timestampMs": 12720,
+  "confidence": null
+ },
+ {
+  "text": " Então,",
+  "startMs": 13280,
+  "endMs": 13500,
+  "timestampMs": 13390,
+  "confidence": null
+ },
+ {
+  "text": " Alexandre",
+  "startMs": 13500,
+  "endMs": 13800,
+  "timestampMs": 13650,
+  "confidence": null
+ },
+ {
+  "text": " Guimarães",
+  "startMs": 13800,
+  "endMs": 14240,
+  "timestampMs": 14020,
+  "confidence": null
+ },
+ {
+  "text": " esteve",
+  "startMs": 14240,
+  "endMs": 14440,
+  "timestampMs": 14340,
+  "confidence": null
+ },
+ {
+  "text": " aqui",
+  "startMs": 14440,
+  "endMs": 14600,
+  "timestampMs": 14520,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 14600,
+  "endMs": 14720,
+  "timestampMs": 14660,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 14720,
+  "endMs": 14960,
+  "timestampMs": 14840,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 14960,
+  "endMs": 14980,
+  "timestampMs": 14970,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 15080,
+  "endMs": 15200,
+  "timestampMs": 15140,
+  "confidence": null
+ },
+ {
+  "text": " trouxe",
+  "startMs": 15200,
+  "endMs": 15580,
+  "timestampMs": 15390,
+  "confidence": null
+ },
+ {
+  "text": " muitos",
+  "startMs": 15580,
+  "endMs": 16060,
+  "timestampMs": 15820,
+  "confidence": null
+ },
+ {
+  "text": " insights",
+  "startMs": 16060,
+  "endMs": 16300,
+  "timestampMs": 16180,
+  "confidence": null
+ },
+ {
+  "text": " para",
+  "startMs": 16300,
+  "endMs": 16420,
+  "timestampMs": 16360,
+  "confidence": null
+ },
+ {
+  "text": " os",
+  "startMs": 16420,
+  "endMs": 16680,
+  "timestampMs": 16550,
+  "confidence": null
+ },
+ {
+  "text": " empresários",
+  "startMs": 16680,
+  "endMs": 16980,
+  "timestampMs": 16830,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 17360,
+  "endMs": 17620,
+  "timestampMs": 17490,
+  "confidence": null
+ },
+ {
+  "text": " soluções",
+  "startMs": 17620,
+  "endMs": 18080,
+  "timestampMs": 17850,
+  "confidence": null
+ },
+ {
+  "text": " para",
+  "startMs": 18080,
+  "endMs": 18380,
+  "timestampMs": 18230,
+  "confidence": null
+ },
+ {
+  "text": " facilitar",
+  "startMs": 18380,
+  "endMs": 18760,
+  "timestampMs": 18570,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 18760,
+  "endMs": 18860,
+  "timestampMs": 18810,
+  "confidence": null
+ },
+ {
+  "text": " dia",
+  "startMs": 18860,
+  "endMs": 18980,
+  "timestampMs": 18920,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 18980,
+  "endMs": 19120,
+  "timestampMs": 19050,
+  "confidence": null
+ },
+ {
+  "text": " dia",
+  "startMs": 19120,
+  "endMs": 19300,
+  "timestampMs": 19210,
+  "confidence": null
+ },
+ {
+  "text": " dos",
+  "startMs": 19300,
+  "endMs": 19520,
+  "timestampMs": 19410,
+  "confidence": null
+ },
+ {
+  "text": " negócios.",
+  "startMs": 19520,
+  "endMs": 19880,
+  "timestampMs": 19700,
+  "confidence": null
+ },
+ {
+  "text": " Bom",
+  "startMs": 20660,
+  "endMs": 20960,
+  "timestampMs": 20810,
+  "confidence": null
+ },
+ {
+  "text": " dia,",
+  "startMs": 20960,
+  "endMs": 21160,
+  "timestampMs": 21060,
+  "confidence": null
+ },
+ {
+  "text": " participamos",
+  "startMs": 21480,
+  "endMs": 22020,
+  "timestampMs": 21750,
+  "confidence": null
+ },
+ {
+  "text": " aqui",
+  "startMs": 22020,
+  "endMs": 22300,
+  "timestampMs": 22160,
+  "confidence": null
+ },
+ {
+  "text": " nesses",
+  "startMs": 22300,
+  "endMs": 23380,
+  "timestampMs": 22840,
+  "confidence": null
+ },
+ {
+  "text": " dois",
+  "startMs": 23380,
+  "endMs": 23720,
+  "timestampMs": 23550,
+  "confidence": null
+ },
+ {
+  "text": " dias,",
+  "startMs": 23720,
+  "endMs": 23760,
+  "timestampMs": 23740,
+  "confidence": null
+ },
+ {
+  "text": " duas",
+  "startMs": 24140,
+  "endMs": 24380,
+  "timestampMs": 24260,
+  "confidence": null
+ },
+ {
+  "text": " manhãs",
+  "startMs": 24380,
+  "endMs": 24780,
+  "timestampMs": 24580,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 24780,
+  "endMs": 25180,
+  "timestampMs": 24980,
+  "confidence": null
+ },
+ {
+  "text": " workshop",
+  "startMs": 25180,
+  "endMs": 25640,
+  "timestampMs": 25410,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 25640,
+  "endMs": 25940,
+  "timestampMs": 25790,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 25940,
+  "endMs": 26200,
+  "timestampMs": 26070,
+  "confidence": null
+ },
+ {
+  "text": " Alexandre,",
+  "startMs": 26200,
+  "endMs": 26760,
+  "timestampMs": 26480,
+  "confidence": null
+ },
+ {
+  "text": " conversando",
+  "startMs": 27400,
+  "endMs": 28000,
+  "timestampMs": 27700,
+  "confidence": null
+ },
+ {
+  "text": " sobre",
+  "startMs": 28000,
+  "endMs": 28520,
+  "timestampMs": 28260,
+  "confidence": null
+ },
+ {
+  "text": " IA",
+  "startMs": 28520,
+  "endMs": 30200,
+  "timestampMs": 29360,
+  "confidence": null
+ },
+ {
+  "text": " dentro",
+  "startMs": 30200,
+  "endMs": 30440,
+  "timestampMs": 30320,
+  "confidence": null
+ },
+ {
+  "text": " dos",
+  "startMs": 30440,
+  "endMs": 30660,
+  "timestampMs": 30550,
+  "confidence": null
+ },
+ {
+  "text": " nossos",
+  "startMs": 30660,
+  "endMs": 30920,
+  "timestampMs": 30790,
+  "confidence": null
+ },
+ {
+  "text": " negócios.",
+  "startMs": 30920,
+  "endMs": 31240,
+  "timestampMs": 31080,
+  "confidence": null
+ },
+ {
+  "text": " E",
+  "startMs": 31460,
+  "endMs": 32100,
+  "timestampMs": 31780,
+  "confidence": null
+ },
+ {
+  "text": " foram",
+  "startMs": 32100,
+  "endMs": 32540,
+  "timestampMs": 32320,
+  "confidence": null
+ },
+ {
+  "text": " duas",
+  "startMs": 32540,
+  "endMs": 32720,
+  "timestampMs": 32630,
+  "confidence": null
+ },
+ {
+  "text": " manhãs",
+  "startMs": 32720,
+  "endMs": 33060,
+  "timestampMs": 32890,
+  "confidence": null
+ },
+ {
+  "text": " bem",
+  "startMs": 33060,
+  "endMs": 33380,
+  "timestampMs": 33220,
+  "confidence": null
+ },
+ {
+  "text": " produtivas,",
+  "startMs": 33380,
+  "endMs": 33900,
+  "timestampMs": 33640,
+  "confidence": null
+ },
+ {
+  "text": " gostamos",
+  "startMs": 34080,
+  "endMs": 34700,
+  "timestampMs": 34390,
+  "confidence": null
+ },
+ {
+  "text": " muito",
+  "startMs": 34700,
+  "endMs": 35500,
+  "timestampMs": 35100,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 35500,
+  "endMs": 35740,
+  "timestampMs": 35620,
+  "confidence": null
+ },
+ {
+  "text": " vamos",
+  "startMs": 35740,
+  "endMs": 35880,
+  "timestampMs": 35810,
+  "confidence": null
+ },
+ {
+  "text": " dar",
+  "startMs": 35880,
+  "endMs": 36100,
+  "timestampMs": 35990,
+  "confidence": null
+ },
+ {
+  "text": " seguimento",
+  "startMs": 36100,
+  "endMs": 36480,
+  "timestampMs": 36290,
+  "confidence": null
+ },
+ {
+  "text": " na",
+  "startMs": 36480,
+  "endMs": 36760,
+  "timestampMs": 36620,
+  "confidence": null
+ },
+ {
+  "text": " conversa",
+  "startMs": 36760,
+  "endMs": 37160,
+  "timestampMs": 36960,
+  "confidence": null
+ },
+ {
+  "text": " mais",
+  "startMs": 37160,
+  "endMs": 37320,
+  "timestampMs": 37240,
+  "confidence": null
+ },
+ {
+  "text": " pra",
+  "startMs": 37320,
+  "endMs": 37660,
+  "timestampMs": 37490,
+  "confidence": null
+ },
+ {
+  "text": " frente.",
+  "startMs": 37660,
+  "endMs": 37880,
+  "timestampMs": 37770,
+  "confidence": null
+ },
+ {
+  "text": " Obrigado.",
+  "startMs": 38140,
+  "endMs": 38400,
+  "timestampMs": 38270,
+  "confidence": null
+ }
+]
