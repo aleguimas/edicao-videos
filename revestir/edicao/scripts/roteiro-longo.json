@@ -1,0 +1,1033 @@
+{
+ "_": "Roteiro do vídeo longo. Tempos em segundos do ORIGINAL (revestir-1/2.MOV), tirados da transcrição; o gerar-roteiro-longo.mjs ajusta cada corte para a pausa mais próxima e converte para o tempo do bloco. Sem números internos da Revestir.",
+ "blocos": {
+  "v1": 55,
+  "olho": 14,
+  "ferrari": 203,
+  "agentes": 802,
+  "maturidade": 1043,
+  "manha": 1178,
+  "confianca": 1286,
+  "compras": 1402,
+  "dores": 1506,
+  "gestores": 1632,
+  "foco": 1722,
+  "sempre": 1984
+ },
+ "abertura": [
+  [
+   "c1",
+   "v1",
+   72.08,
+   79.6,
+   "a gente vai colocar IA dentro da empresa… vou perder meu emprego. Mas não é bem assim."
+  ],
+  [
+   "c2",
+   "ferrari",
+   205.18,
+   211.64,
+   "Você tem uma Ferrari e um Fusca… mas tu sabe dirigir a Ferrari?"
+  ],
+  [
+   "c3",
+   "v1",
+   504.44,
+   509.22,
+   "Botei IA na operação, mas a IA não ajudou em nada. Só fez piorar."
+  ],
+  [
+   "c4",
+   "gestores",
+   1637.5,
+   1642.2,
+   "Vocês são os cabeças da equipe. Se vocês não comprarem a ideia, a equipe não compra."
+  ]
+ ],
+ "capitulos": [
+  {
+   "titulo": "Antes da ferramenta, o letramento",
+   "curto": "Letramento",
+   "sub": "Por que começamos nivelando a IA com os gestores",
+   "trechos": [
+    [
+     "a1",
+     "v1",
+     60.66,
+     79.48,
+     "Antes da gente mostrar a ferramenta… não é bem assim."
+    ],
+    [
+     "a2",
+     "v1",
+     79.98,
+     93.64,
+     "a gente veio para começar a provocar vocês… Caio, fundador e sócio da Simplí"
+    ],
+    [
+     "a3",
+     "v1",
+     94.46,
+     126.42,
+     "20 anos de gestão… atendimento, CRM, Televendas… agora a gestão"
+    ],
+    [
+     "a4",
+     "v1",
+     151.02,
+     155.94,
+     "A provocação é pensar diferente."
+    ],
+    [
+     "a5",
+     "v1",
+     172.64,
+     212.66,
+     "E se…? … provocar toda a minha equipe."
+    ]
+   ]
+  },
+  {
+   "titulo": "O ChatGPT é só a pontinha",
+   "curto": "A pontinha",
+   "sub": "A IA já está no seu dia a dia, e não é de agora",
+   "trechos": [
+    [
+     "b1",
+     "v1",
+     217.72,
+     222.74,
+     "Quem usou inteligência artificial aqui hoje?"
+    ],
+    [
+     "b2",
+     "v1",
+     226.36,
+     237.06,
+     "qual é a primeira coisa que vem na cabeça? Clássico, né?"
+    ],
+    [
+     "b3",
+     "v1",
+     239.72,
+     287.56,
+     "ChatGPT é a pontinha… celular, previsão do tempo… década de 50"
+    ],
+    [
+     "b4",
+     "v1",
+     289.64,
+     316.32,
+     "OpenAI democratizou em 2022… entender o que cada ferramenta faz"
+    ]
+   ]
+  },
+  {
+   "titulo": "O hype acabou",
+   "curto": "O hype acabou",
+   "sub": "Da experimentação à IA como infraestrutura do negócio",
+   "trechos": [
+    [
+     "d1",
+     "v1",
+     317.64,
+     366.78,
+     "fase de experimentação já passou… uso recreativo"
+    ],
+    [
+     "d2",
+     "v1",
+     377.36,
+     391.62,
+     "gerar lucro… infraestrutura operacional"
+    ],
+    [
+     "d3",
+     "v1",
+     409.2,
+     469.08,
+     "70% usam, 15% têm ROI… dados estruturados… estagiário"
+    ]
+   ]
+  },
+  {
+   "titulo": "Sem dados, a IA só piora",
+   "curto": "Dados primeiro",
+   "sub": "A pavimentação que vem antes de qualquer ferramenta",
+   "trechos": [
+    [
+     "e1",
+     "v1",
+     470.94,
+     520.9,
+     "a maioria falhou… pavimentação… botei IA e só piorou"
+    ],
+    [
+     "e2",
+     "v1",
+     523.48,
+     576.32,
+     "IA é ferramenta como o ERP… trabalhar em conjunto"
+    ]
+   ]
+  },
+  {
+   "titulo": "O humano no processo",
+   "curto": "Humano + IA",
+   "sub": "O que uma fábrica automatizada ensina sobre IA",
+   "trechos": [
+    [
+     "f1",
+     "v1",
+     576.46,
+     637.6,
+     "Tramontina… tem o humano no processo"
+    ]
+   ]
+  },
+  {
+   "titulo": "Agentic Office na prática",
+   "curto": "Agentic Office",
+   "sub": "Agentes de IA trabalhando como funcionários digitais",
+   "trechos": [
+    [
+     "g1",
+     "olho",
+     16.3,
+     34.72,
+     "Olho de Deus… relatório todo dia às 9h… dispara automático"
+    ],
+    [
+     "g2",
+     "olho",
+     42.36,
+     70.96,
+     "Torre de controle… devoluções, auditoria, batida de caixa, prevenção"
+    ],
+    [
+     "g3",
+     "agentes",
+     804.68,
+     825.18,
+     "estrutura de agentes por trás… uma gama de agentes no processo"
+    ],
+    [
+     "g4",
+     "agentes",
+     831.62,
+     838.68,
+     "O agente de IA é o funcionário digital"
+    ],
+    [
+     "g6",
+     "agentes",
+     845.38,
+     932.88,
+     "diretoria valida… Rafael, Larissa… três agentes… conversacional… automatiza"
+    ],
+    [
+     "g7",
+     "agentes",
+     942.46,
+     977.5,
+     "Uma vez criado o processo, já foi… agente da manhã"
+    ],
+    [
+     "g8",
+     "manha",
+     1180.14,
+     1209.38,
+     "análise de uma manhã em 30 minutos… isso é produtividade"
+    ]
+   ]
+  },
+  {
+   "titulo": "Comece pequeno",
+   "curto": "Comece pequeno",
+   "sub": "Maturidade se constrói processo a processo",
+   "trechos": [
+    [
+     "h1",
+     "ferrari",
+     205.18,
+     215.72,
+     "Ferrari e Fusca… a estrada é de terra"
+    ],
+    [
+     "h2",
+     "ferrari",
+     219.12,
+     242.86,
+     "a gente não vai só trazer a plataforma… pegar na mão"
+    ],
+    [
+     "h3",
+     "maturidade",
+     1045.22,
+     1059.72,
+     "maturidade junto com vocês… de acordo com o andar da empresa"
+    ],
+    [
+     "h4",
+     "confianca",
+     1288.14,
+     1304.34,
+     "maturidade de uso… 3, 5… ganhar confiança"
+    ],
+    [
+     "h5",
+     "confianca",
+     1306.64,
+     1320.45,
+     "ganhar confiança na ferramenta… nem tudo deve ser automatizado"
+    ],
+    [
+     "h6",
+     "dores",
+     1507.8,
+     1520.8,
+     "pense em cinco processos… não é que amanhã já vai estar funcionando"
+    ]
+   ]
+  },
+  {
+   "titulo": "Compras é a alma do negócio",
+   "curto": "Foco em compras",
+   "sub": "Um setor de cada vez, antes de abraçar a empresa inteira",
+   "trechos": [
+    [
+     "i1",
+     "compras",
+     1403.92,
+     1428.6,
+     "Abre a cabeça… conciliação bancária… compras é o coração"
+    ],
+    [
+     "i2",
+     "compras",
+     1456.42,
+     1488.24,
+     "controlar a verba… tudo na planilha… N coisas"
+    ],
+    [
+     "i3",
+     "foco",
+     1741.48,
+     1746.9,
+     "foque em compras, isso vai ser um mundo gigantesco"
+    ],
+    [
+     "i4",
+     "foco",
+     1749.76,
+     1756.6,
+     "Compras. É a alma do negócio."
+    ],
+    [
+     "i5",
+     "foco",
+     1791.62,
+     1800.0,
+     "Tem que ter um foco… otimizar uma coisa só"
+    ]
+   ]
+  },
+  {
+   "titulo": "Gestores na frente",
+   "curto": "Gestores na frente",
+   "sub": "Sem a liderança comprando a ideia, a equipe não compra",
+   "trechos": [
+    [
+     "j1",
+     "gestores",
+     1633.04,
+     1661.82,
+     "por que juntamos os gestores… empresa sem gestor"
+    ],
+    [
+     "j2",
+     "sempre",
+     1986.3,
+     1988.88,
+     "A gente vai estar sempre por aqui."
+    ]
+   ]
+  }
+ ],
+ "_camera": "Posição do Guimas marcada à mão (folhas com régua a cada 8–10 s): [s no bloco, x 0–1, centro da cabeça y 0–1]. O Vision não acha o apresentador: as pessoas sentadas cobrem o corpo e o rosto fica pequeno demais.",
+ "camera": {
+  "v1": [
+   [
+    5,
+    0.51,
+    0.46
+   ],
+   [
+    15,
+    0.43,
+    0.4
+   ],
+   [
+    25,
+    0.46,
+    0.44
+   ],
+   [
+    35,
+    0.47,
+    0.43
+   ],
+   [
+    45,
+    0.42,
+    0.46
+   ],
+   [
+    55,
+    0.42,
+    0.46
+   ],
+   [
+    65,
+    0.42,
+    0.47
+   ],
+   [
+    75,
+    0.47,
+    0.48
+   ],
+   [
+    85,
+    0.43,
+    0.44
+   ],
+   [
+    95,
+    0.46,
+    0.46
+   ],
+   [
+    105,
+    0.47,
+    0.48
+   ],
+   [
+    115,
+    0.51,
+    0.47
+   ],
+   [
+    125,
+    0.5,
+    0.48
+   ],
+   [
+    135,
+    0.53,
+    0.49
+   ],
+   [
+    145,
+    0.5,
+    0.5
+   ],
+   [
+    155,
+    0.52,
+    0.49
+   ],
+   [
+    165,
+    0.54,
+    0.44
+   ],
+   [
+    175,
+    0.53,
+    0.44
+   ],
+   [
+    185,
+    0.54,
+    0.47
+   ],
+   [
+    195,
+    0.53,
+    0.47
+   ],
+   [
+    205,
+    0.51,
+    0.46
+   ],
+   [
+    215,
+    0.5,
+    0.46
+   ],
+   [
+    225,
+    0.55,
+    0.46
+   ],
+   [
+    235,
+    0.55,
+    0.47
+   ],
+   [
+    245,
+    0.55,
+    0.47
+   ],
+   [
+    255,
+    0.48,
+    0.47
+   ],
+   [
+    265,
+    0.46,
+    0.44
+   ],
+   [
+    275,
+    0.5,
+    0.44
+   ],
+   [
+    285,
+    0.51,
+    0.48
+   ],
+   [
+    295,
+    0.49,
+    0.48
+   ],
+   [
+    305,
+    0.49,
+    0.49
+   ],
+   [
+    315,
+    0.5,
+    0.48
+   ],
+   [
+    325,
+    0.52,
+    0.46
+   ],
+   [
+    335,
+    0.54,
+    0.46
+   ],
+   [
+    345,
+    0.51,
+    0.47
+   ],
+   [
+    355,
+    0.49,
+    0.47
+   ],
+   [
+    365,
+    0.49,
+    0.46
+   ],
+   [
+    375,
+    0.48,
+    0.46
+   ],
+   [
+    385,
+    0.54,
+    0.47
+   ],
+   [
+    395,
+    0.52,
+    0.46
+   ],
+   [
+    405,
+    0.51,
+    0.46
+   ],
+   [
+    415,
+    0.48,
+    0.46
+   ],
+   [
+    425,
+    0.52,
+    0.46
+   ],
+   [
+    435,
+    0.52,
+    0.46
+   ],
+   [
+    445,
+    0.51,
+    0.48
+   ],
+   [
+    455,
+    0.48,
+    0.48
+   ],
+   [
+    465,
+    0.48,
+    0.48
+   ],
+   [
+    475,
+    0.52,
+    0.48
+   ],
+   [
+    485,
+    0.5,
+    0.46
+   ],
+   [
+    495,
+    0.55,
+    0.48
+   ],
+   [
+    505,
+    0.55,
+    0.48
+   ],
+   [
+    515,
+    0.5,
+    0.46
+   ],
+   [
+    525,
+    0.53,
+    0.46
+   ],
+   [
+    535,
+    0.55,
+    0.47
+   ],
+   [
+    545,
+    0.55,
+    0.48
+   ],
+   [
+    555,
+    0.54,
+    0.47
+   ],
+   [
+    565,
+    0.54,
+    0.47
+   ],
+   [
+    575,
+    0.5,
+    0.47
+   ],
+   [
+    585,
+    0.53,
+    0.47
+   ]
+  ],
+  "olho": [
+   [
+    2,
+    0.29,
+    0.44
+   ],
+   [
+    10,
+    0.3,
+    0.44
+   ],
+   [
+    18,
+    0.31,
+    0.43
+   ],
+   [
+    26,
+    0.3,
+    0.42
+   ],
+   [
+    34,
+    0.29,
+    0.45
+   ],
+   [
+    42,
+    0.29,
+    0.45
+   ],
+   [
+    50,
+    0.3,
+    0.46
+   ],
+   [
+    58,
+    0.3,
+    0.45
+   ]
+  ],
+  "ferrari": [
+   [
+    2,
+    0.3,
+    0.46
+   ],
+   [
+    10,
+    0.31,
+    0.44
+   ],
+   [
+    18,
+    0.31,
+    0.44
+   ],
+   [
+    26,
+    0.31,
+    0.44
+   ],
+   [
+    34,
+    0.32,
+    0.44
+   ]
+  ],
+  "agentes": [
+   [
+    2,
+    0.42,
+    0.52
+   ],
+   [
+    34,
+    0.43,
+    0.48
+   ],
+   [
+    42,
+    0.38,
+    0.46
+   ],
+   [
+    50,
+    0.44,
+    0.46
+   ],
+   [
+    58,
+    0.45,
+    0.44
+   ],
+   [
+    66,
+    0.35,
+    0.46
+   ],
+   [
+    74,
+    0.42,
+    0.44
+   ],
+   [
+    82,
+    0.36,
+    0.47
+   ],
+   [
+    90,
+    0.36,
+    0.45
+   ],
+   [
+    98,
+    0.34,
+    0.48
+   ],
+   [
+    106,
+    0.34,
+    0.48
+   ],
+   [
+    114,
+    0.34,
+    0.47
+   ],
+   [
+    122,
+    0.32,
+    0.47
+   ],
+   [
+    130,
+    0.32,
+    0.46
+   ],
+   [
+    138,
+    0.32,
+    0.46
+   ],
+   [
+    146,
+    0.32,
+    0.44
+   ],
+   [
+    154,
+    0.31,
+    0.42
+   ],
+   [
+    162,
+    0.375,
+    0.44
+   ],
+   [
+    170,
+    0.44,
+    0.44
+   ]
+  ],
+  "maturidade": [
+   [
+    2,
+    0.32,
+    0.44
+   ],
+   [
+    10,
+    0.35,
+    0.45
+   ]
+  ],
+  "manha": [
+   [
+    2,
+    0.31,
+    0.44
+   ],
+   [
+    10,
+    0.35,
+    0.44
+   ],
+   [
+    18,
+    0.35,
+    0.44
+   ],
+   [
+    26,
+    0.36,
+    0.44
+   ]
+  ],
+  "confianca": [
+   [
+    2,
+    0.31,
+    0.47
+   ],
+   [
+    10,
+    0.24,
+    0.47
+   ],
+   [
+    18,
+    0.29,
+    0.42
+   ],
+   [
+    26,
+    0.27,
+    0.43
+   ],
+   [
+    34,
+    0.26,
+    0.43
+   ],
+   [
+    42,
+    0.26,
+    0.44
+   ]
+  ],
+  "compras": [
+   [
+    2,
+    0.26,
+    0.41
+   ],
+   [
+    10,
+    0.28,
+    0.4
+   ],
+   [
+    18,
+    0.27,
+    0.41
+   ],
+   [
+    26,
+    0.35,
+    0.42
+   ],
+   [
+    34,
+    0.36,
+    0.45
+   ],
+   [
+    42,
+    0.35,
+    0.44
+   ],
+   [
+    50,
+    0.35,
+    0.46
+   ],
+   [
+    58,
+    0.27,
+    0.45
+   ],
+   [
+    66,
+    0.28,
+    0.45
+   ],
+   [
+    74,
+    0.24,
+    0.45
+   ],
+   [
+    82,
+    0.28,
+    0.4
+   ]
+  ],
+  "dores": [
+   [
+    2,
+    0.2,
+    0.44
+   ],
+   [
+    10,
+    0.22,
+    0.46
+   ],
+   [
+    18,
+    0.23,
+    0.42
+   ],
+   [
+    26,
+    0.23,
+    0.44
+   ]
+  ],
+  "gestores": [
+   [
+    1,
+    0.22,
+    0.41
+   ],
+   [
+    9,
+    0.22,
+    0.41
+   ],
+   [
+    17,
+    0.32,
+    0.46
+   ],
+   [
+    25,
+    0.31,
+    0.45
+   ]
+  ],
+  "foco": [
+   [
+    19,
+    0.23,
+    0.41
+   ],
+   [
+    27,
+    0.24,
+    0.41
+   ],
+   [
+    35,
+    0.24,
+    0.43
+   ],
+   [
+    43,
+    0.24,
+    0.46
+   ],
+   [
+    51,
+    0.25,
+    0.43
+   ],
+   [
+    59,
+    0.25,
+    0.43
+   ],
+   [
+    67,
+    0.25,
+    0.45
+   ],
+   [
+    75,
+    0.24,
+    0.43
+   ]
+  ],
+  "sempre": []
+ }
+}

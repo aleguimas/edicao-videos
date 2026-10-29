@@ -27,3 +27,9 @@ musicas/
 *.zip
 # Trilhas preparadas a partir das músicas (licença de terceiros; regeráveis pelos scripts)
 **/public/**/*.wav
+# Vídeo longo: partes do render (regeráveis pelo render-longo.sh), quadros amostrados e caches da transcrição em subpastas
+**/render-partes/
+**/scripts/quadros/
+**/transcricao/**/audio-16k.f32
+# Transcrições de clientes (conversas internas, números da empresa): ficam só na máquina — o repositório é público
+revestir/transcricao/
