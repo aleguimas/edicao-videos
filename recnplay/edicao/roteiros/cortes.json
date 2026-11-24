@@ -1,0 +1,282 @@
+{
+ "corte01": {
+  "titulo": [
+   "Usar a IA",
+   "ou ser usado por ela"
+  ],
+  "gancho": {
+   "ini": 745.45,
+   "fim": 747.15,
+   "quem": "D",
+   "palavra": "TÁ MENTINDO"
+  },
+  "trechos": [
+   {
+    "ini": 727.55,
+    "fim": 737.4,
+    "quem": "D"
+   },
+   {
+    "ini": 738.3,
+    "fim": 742.35,
+    "quem": "D"
+   },
+   {
+    "ini": 745.45,
+    "fim": 755.5,
+    "quem": "D"
+   },
+   {
+    "ini": 756.6,
+    "fim": 775.75,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte02": {
+  "titulo": [
+   "Meu funcionário",
+   "número um é a IA"
+  ],
+  "gancho": {
+   "ini": 777.4,
+   "fim": 781.85,
+   "quem": "D",
+   "palavra": "FUNCIONÁRIO Nº 1"
+  },
+  "trechos": [
+   {
+    "ini": 775.85,
+    "fim": 831.75,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte03": {
+  "titulo": [
+   "A criatividade",
+   "é do ser humano"
+  ],
+  "gancho": {
+   "ini": 1105.9,
+   "fim": 1112.45,
+   "quem": "D",
+   "palavra": "A CRIATIVIDADE\nÉ HUMANA"
+  },
+  "trechos": [
+   {
+    "ini": 1069.7,
+    "fim": 1072.05,
+    "quem": "A",
+    "texto": "E aí eu tive que tomar uma decisão bem difícil,"
+   },
+   {
+    "ini": 1079.0,
+    "fim": 1082.5,
+    "quem": "A",
+    "texto": "mas a IA junto com o profissional, né?"
+   },
+   {
+    "ini": 1096.4,
+    "fim": 1146.0,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte04": {
+  "titulo": [
+   "A mesma IA,",
+   "resultados diferentes"
+  ],
+  "gancho": {
+   "ini": 1254.3,
+   "fim": 1260.25,
+   "quem": "D",
+   "palavra": "QUAL FOI\nA DIFERENÇA?"
+  },
+  "trechos": [
+   {
+    "ini": 1185.1,
+    "fim": 1190.8,
+    "quem": "D"
+   },
+   {
+    "ini": 1193.2,
+    "fim": 1195.85,
+    "quem": "D"
+   },
+   {
+    "ini": 1198.25,
+    "fim": 1206.0,
+    "quem": "D"
+   },
+   {
+    "ini": 1220.3,
+    "fim": 1264.25,
+    "quem": "D"
+   },
+   {
+    "ini": 1273.4,
+    "fim": 1281.4,
+    "quem": "D"
+   },
+   {
+    "ini": 1290.2,
+    "fim": 1303.6,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte05": {
+  "titulo": [
+   "Por onde começar",
+   "com IA na empresa"
+  ],
+  "gancho": {
+   "ini": 1498.3,
+   "fim": 1503.65,
+   "quem": "D",
+   "palavra": "COMECE\nPEQUENO"
+  },
+  "trechos": [
+   {
+    "ini": 1385.95,
+    "fim": 1406.1,
+    "quem": "B",
+    "texto": "Não é correto eu soltar pra todo mundo, na mão de todo mundo, uma IA assim, pra 22 mil pessoas: pá, façam o que vocês quiserem. Não posso fazer isso, é governança. Governança, primeiro ponto. Segundo ponto, que foi a provocação que ele falou, ficou muito na minha cabeça: qual o problema que você quer resolver?"
+   },
+   {
+    "ini": 1492.7,
+    "fim": 1524.2,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte06": {
+  "titulo": [
+   "A decisão final",
+   "tem que ser sua"
+  ],
+  "gancho": {
+   "ini": 1730.0,
+   "fim": 1734.8,
+   "quem": "D",
+   "palavra": "A DECISÃO\nÉ SUA"
+  },
+  "trechos": [
+   {
+    "ini": 1692.2,
+    "fim": 1695.6,
+    "quem": "C",
+    "texto": "Mas será que esses profissionais não podem ficar muito dependentes da IA?"
+   },
+   {
+    "ini": 1697.9,
+    "fim": 1699.25,
+    "quem": "C",
+    "texto": "E perderem o senso crítico."
+   },
+   {
+    "ini": 1699.7,
+    "fim": 1764.5,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte07": {
+  "titulo": [
+   "De 2 dias",
+   "para 10 minutos"
+  ],
+  "gancho": {
+   "ini": 1837.6,
+   "fim": 1843.3,
+   "quem": "D",
+   "palavra": "10 MINUTOS"
+  },
+  "trechos": [
+   {
+    "ini": 1786.1,
+    "fim": 1843.3,
+    "quem": "D"
+   },
+   {
+    "ini": 1852.95,
+    "fim": 1876.2,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte08": {
+  "titulo": [
+   "Estratégia de negócio,",
+   "não estratégia de IA"
+  ],
+  "gancho": {
+   "ini": 2248.55,
+   "fim": 2254.8,
+   "quem": "D",
+   "palavra": "ESTRATÉGIA\nDE NEGÓCIO"
+  },
+  "trechos": [
+   {
+    "ini": 2246.5,
+    "fim": 2308.95,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte09": {
+  "titulo": [
+   "A IA vai tirar",
+   "o meu emprego?"
+  ],
+  "gancho": {
+   "ini": 2907.6,
+   "fim": 2912.0,
+   "quem": "D",
+   "palavra": "QUEM FECHA\nA VENDA É VOCÊ"
+  },
+  "trechos": [
+   {
+    "ini": 2830.9,
+    "fim": 2859.5,
+    "quem": "D"
+   },
+   {
+    "ini": 2865.0,
+    "fim": 2925.0,
+    "quem": "D"
+   }
+  ]
+ },
+ "corte10": {
+  "titulo": [
+   "Antes da tecnologia,",
+   "pessoas"
+  ],
+  "gancho": {
+   "ini": 4080.8,
+   "fim": 4088.0,
+   "quem": "D",
+   "palavra": "GESTOR\nDE PESSOAS"
+  },
+  "trechos": [
+   {
+    "ini": 4080.8,
+    "fim": 4117.7,
+    "quem": "D"
+   },
+   {
+    "ini": 4200.3,
+    "fim": 4220.1,
+    "quem": "D"
+   },
+   {
+    "ini": 4221.7,
+    "fim": 4243.2,
+    "quem": "D"
+   }
+  ]
+ }
+}

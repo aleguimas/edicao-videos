@@ -33,3 +33,14 @@ musicas/
 **/transcricao/**/audio-16k.f32
 # Transcrições de clientes (conversas internas, números da empresa): ficam só na máquina — o repositório é público
 revestir/transcricao/
+
+# capturas do sistema com dados reais de clientes
+manuais simplí/agentic-office/referencia-mobile/
+manuais simplí/simpli-crm/referencia/
+
+# Rec'n Play: prévias, blocos do render, quadros amostrados e áudios de análise (regeráveis)
+recnplay/previa/
+recnplay/analise/quadros/
+recnplay/analise/teste/
+recnplay/analise/*.wav
+recnplay/analise/*.err
