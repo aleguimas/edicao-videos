@@ -1,0 +1,30 @@
+{
+ "voz": "pt-BR-ThalitaMultilingualNeural",
+ "velocidade": "+4%",
+ "observacao": "Anúncios curtos do Simplí CRM: av-* é a versão vertical de 15 a 20 s; bp-* é o bumper de 6 s (não pulável): bp-1 de 0 a 2 s, bp-2 de 2 a 6 s.",
+ "falas": [
+  {
+   "id": "av-1",
+   "texto": "Seu cliente mandou mensagem às onze da noite, ficou sem resposta e comprou no concorrente."
+  },
+  {
+   "id": "av-2",
+   "texto": "Com o Simplí CRM, o agente de IA responde na hora, no WhatsApp e no Instagram."
+  },
+  {
+   "id": "av-3",
+   "texto": "Clique e veja como funciona na sua empresa."
+  },
+  {
+   "id": "bp-1",
+   "texto": "Onze da noite, sem resposta?",
+   "velocidade": "+10%"
+  },
+  {
+   "id": "bp-2",
+   "texto": "Com o Simplí CRM, a IA atende, você vende.",
+   "velocidade": "+16%"
+  }
+ ],
+ "grafias": {}
+}

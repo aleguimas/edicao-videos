@@ -1,0 +1,18 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "Falas novas dos cortes 9:16 do Simplí CRM; o restante vem de scripts/falas-crm.json.",
+  "falas": [
+    { "id": "corc1-gancho", "texto": "A sua loja fecha, mas nenhum cliente fica sem resposta, porque o agente de IA atende por você." },
+    { "id": "corc1-ponte", "texto": "Esse é o Simplí CRM, no WhatsApp e no Instagram." },
+    { "id": "corc2-gancho", "texto": "Tem dinheiro parado nos orçamentos que ninguém cobrou, e cada um deles pode virar uma tarefa para o seu vendedor." },
+    { "id": "corc3-gancho", "texto": "Ele já comprou com você, e o vendedor não sabe, mas a ficha do cliente pode mostrar tudo antes da conversa." },
+    { "id": "corc4-gancho", "texto": "O vendedor da loja não precisa de computador para vender mais, porque a lista de clientes fica no celular dele." },
+    { "id": "corc5-gancho", "texto": "Você sabe quanto a sua última campanha vendeu, ou ainda vai no achismo, quando dá para ver o resultado em reais?" },
+    { "id": "corc-ponte", "texto": "Com o Simplí CRM, atendimento, vendas e gestão ficam em uma plataforma só." },
+    { "id": "corc5-ponte", "texto": "No Simplí CRM, o módulo de Eventos acompanha as vendas reais do ERP e mostra o resultado de cada ação." },
+    { "id": "corc5-campanha", "texto": "Você atrela as campanhas ao evento criado, e o módulo cruza os leads impactados com os pedidos do ERP. Ele mostra quantos compraram, quanto compraram e o retorno financeiro da campanha do evento." },
+    { "id": "corc-fim", "texto": "Quer ver isso funcionando na sua empresa? Comenta CRM aqui embaixo, e a apresentação completa já está no ar." }
+  ],
+  "grafias": {}
+}

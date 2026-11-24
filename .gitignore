@@ -44,3 +44,10 @@ recnplay/analise/quadros/
 recnplay/analise/teste/
 recnplay/analise/*.wav
 recnplay/analise/*.err
+
+# Manuais: ambiente Python, caches do Remotion e manuais em Word (podem ter prints com dados reais)
+**/.venv/
+**/.cache/
+**/.remotion/
+manuais simplí/**/*.docx
+manuais simplí/**/public/trilha.mp3

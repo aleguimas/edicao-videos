@@ -1,0 +1,62 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "Ganchos e fechamento dos cortes 9:16 (Reels e Shorts). O miolo de cada corte reaproveita as falas de falas-apresentacao.json. O fechamento é o mesmo nos dois canais: o CTA específico de cada rede fica na descrição. \"Agentic, Office\" com vírgula; nada de frase curta isolada; rode scripts/validar-sotaque.mjs.",
+  "grafias": {
+    "Nôuxan": "Notion"
+  },
+  "falas": [
+    {
+      "id": "corte1-gancho",
+      "texto": "E se a sua empresa tivesse uma diretoria inteira trabalhando todos os dias, e nenhum dos diretores fosse uma pessoa?"
+    },
+    {
+      "id": "corte2-gancho",
+      "texto": "Imagina conversar com a sua empresa inteira, por texto ou por voz, como se fosse uma pessoa."
+    },
+    {
+      "id": "corte3-gancho",
+      "texto": "Você ainda espera alguém montar o relatório para saber quanto vendeu ontem?"
+    },
+    {
+      "id": "corte4-gancho",
+      "texto": "Por que a maioria das inteligências artificiais dá resposta genérica, e os agentes do Agentic, Office não?"
+    },
+    {
+      "id": "corte4-conhecimento",
+      "texto": "Porque cada agente trabalha com quatro recursos. O primeiro é o conhecimento: a base de documentos da empresa, consultada por busca inteligente, para responder com o conteúdo da casa."
+    },
+    {
+      "id": "corte4-memoria",
+      "texto": "O segundo é a memória. O agente lembra do projeto, do setor e da empresa, e se atualiza a cada tarefa e todos os dias."
+    },
+    {
+      "id": "corte4-skills",
+      "texto": "O terceiro são as habilidades, as skills: procedimentos que ensinam o agente a executar um processo do jeito da sua empresa. E dá para importar uma skill de outra inteligência artificial."
+    },
+    {
+      "id": "corte4-ferramentas",
+      "texto": "E o quarto são as ferramentas. O agente gera PDF, planilha e documento, se conecta a mais de mil aplicativos, como Gmail, Drive, Slack e Nôuxan, e acessa o banco de dados."
+    },
+    {
+      "id": "corte5-gancho",
+      "texto": "Ninguém da sua equipe precisa mais fazer ata de reunião."
+    },
+    {
+      "id": "corte6-gancho",
+      "texto": "E se a inteligência artificial resolvesse problema de verdade na sua empresa, área por área?"
+    },
+    {
+      "id": "corte7-gancho",
+      "texto": "A primeira pergunta que todo diretor faz é: e os dados da minha empresa?"
+    },
+    {
+      "id": "corte8-gancho",
+      "texto": "Uma planilha virou aplicativo, e ninguém precisou programar."
+    },
+    {
+      "id": "fim",
+      "texto": "Quer ver o Agentic, Office por inteiro? A apresentação completa já está no ar, e tem muito mais vindo por aí."
+    }
+  ]
+}

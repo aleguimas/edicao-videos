@@ -1,0 +1,11 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "Anúncio de 30 s do Simplí CRM para o YouTube (pulável): o gancho e a marca precisam aparecer antes de 5 s.",
+  "falas": [
+    { "id": "an-1", "texto": "Seu cliente mandou mensagem no WhatsApp ou no Instagram às onze da noite, ficou sem resposta e comprou no concorrente." },
+    { "id": "an-2", "texto": "Com o Simplí CRM, o agente de IA atende na hora, a conversa vira card no funil, o orçamento parado vira tarefa para o vendedor, e as vendas do ERP mostram o resultado." },
+    { "id": "an-3", "texto": "Tudo em uma plataforma só. Clique e veja como funciona na sua empresa." }
+  ],
+  "grafias": {}
+}

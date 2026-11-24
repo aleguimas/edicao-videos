@@ -1,0 +1,79 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "Ganchos e fechamento dos cortes 9:16 do módulo Acompanhamento (Reels e Shorts). O miolo reaproveita falas de falas-acompanhamento.json; só entra aqui a fala que não se sustenta fora do vídeo longo. O CTA de cada rede fica na descrição. Nada de frase curta isolada; rode scripts/validar-sotaque.mjs.",
+  "falas": [
+    {
+      "id": "cortea2-gancho",
+      "texto": "Você ainda cobra as pessoas uma por uma? Aqui, quem cobra é o sistema."
+    },
+    {
+      "id": "cortea-ponte",
+      "texto": "Esse é o Acompanhamento, um módulo do Agentic, Office. Cada demanda vira ações, com responsável e prazo."
+    },
+    {
+      "id": "cortea2-aviso",
+      "texto": "Quando a demanda é ativada, cada responsável recebe um aviso por e-mail, com a ação e o prazo."
+    },
+    {
+      "id": "cortea-fim",
+      "texto": "Quer ver o módulo inteiro? O vídeo completo do Acompanhamento já está no ar, e tem muito mais vindo por aí."
+    },
+    {
+      "id": "cortea1-gancho",
+      "texto": "A reunião acabou, e ninguém sabe quem ficou com o quê? Aqui, cada ação tem dono."
+    },
+    {
+      "id": "cortea1-ponte",
+      "texto": "Esse é o Acompanhamento, um módulo do Agentic, Office."
+    },
+    {
+      "id": "cortea3-gancho",
+      "texto": "A ata da reunião não precisa ficar parada na pasta. Em minutos, ela vira um plano de ação."
+    },
+    {
+      "id": "cortea3-documento",
+      "texto": "Você clica em Adicionar documento e envia a ata em PDF, Word ou planilha, ou simplesmente cola o texto. E nada é cobrado antes da sua revisão."
+    },
+    {
+      "id": "cortea3-lendo",
+      "texto": "A Clara, a assistente deste módulo, lê o documento e monta o plano. Isso leva alguns minutos, e a página atualiza sozinha."
+    },
+    {
+      "id": "cortea4-gancho",
+      "texto": "E se a inteligência artificial entender errado a sua ata? Aqui, nada vira cobrança sem a sua revisão."
+    },
+    {
+      "id": "cortea4-alertas",
+      "texto": "Quando alguma coisa não fecha, a Clara, a assistente deste módulo, avisa. Se o prazo da ata já passou, ou se a frase não dá uma data clara, aparece o alerta em vermelho, pra você definir a data certa."
+    },
+    {
+      "id": "cortea5-gancho",
+      "texto": "Responder uma cobrança entrando em mais um sistema? Aqui, o responsável resolve direto no e-mail."
+    },
+    {
+      "id": "cortea5-email",
+      "texto": "O Rafael, de Compras, abre o e-mail e vê a ação, o prazo e três botões. Ele não precisa de login pra responder."
+    },
+    {
+      "id": "cortea5-botoes",
+      "texto": "Se terminou, ele clica em Ação concluída. Se precisa de mais tempo, clica em Solicitar novo prazo e justifica. E se a ação é de outra pessoa, indica quem deveria responder."
+    },
+    {
+      "id": "cortea6-gancho",
+      "texto": "Dizer que fez não basta, porque aqui toda entrega passa por aprovação."
+    },
+    {
+      "id": "cortea6-concluida",
+      "texto": "Quando termina, o responsável clica em Ação concluída, descreve o que foi feito e pode anexar a evidência, como um documento, uma foto ou uma planilha."
+    },
+    {
+      "id": "cortea6-aprovar",
+      "texto": "O retorno chega por e-mail e no quadro Para aprovar, e a ação fica em análise até alguém decidir. Se aprovar, a ação fica concluída."
+    },
+    {
+      "id": "cortea7-gancho",
+      "texto": "Onde os combinados da sua empresa estão travando? Sem achismo, o painel mostra."
+    }
+  ]
+}

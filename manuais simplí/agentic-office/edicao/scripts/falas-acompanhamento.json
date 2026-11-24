@@ -1,0 +1,191 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "Roteiro do vídeo do Acompanhamento (plano em ../acompanhamentos/plano-video-acompanhamento.md). \"Agentic, Office\" com vírgula; nunca deixar frase curta isolada.",
+  "falas": [
+    {
+      "id": "abertura",
+      "texto": "Oi, eu sou a Ana, a Assistente de IA da Simplí. Hoje eu vou te mostrar, do começo ao fim, o Acompanhamento, um módulo do Agentic, Office."
+    },
+    {
+      "id": "gancho",
+      "texto": "Você já saiu de uma reunião cheia de combinados e, na reunião seguinte, ninguém lembrava quem tinha ficado com o quê? A ata foi pra uma pasta, o prazo passou, e alguém ainda teve que correr atrás de cada pessoa, uma por uma."
+    },
+    {
+      "id": "conceito",
+      "texto": "Aqui funciona assim. O assunto vira uma demanda, e dentro dela ficam as ações, cada uma com um responsável e um prazo. A partir daí, o sistema cobra cada pessoa por e-mail até a ação ser resolvida."
+    },
+    {
+      "id": "semacesso",
+      "texto": "E o melhor é que o responsável não precisa ter acesso à plataforma, porque tudo chega pra ele por e-mail, com botões pra responder."
+    },
+    {
+      "id": "abas",
+      "texto": "Abrindo o Acompanhamento no menu, você vê quatro abas: Demandas, Painel geral, Pessoas e áreas, e Configurações. Pra te mostrar tudo, eu vou seguir um exemplo do começo ao fim: a inauguração da Loja Sul."
+    },
+    {
+      "id": "nova",
+      "texto": "Clica em Nova demanda e preenche o título, o objetivo, o setor responsável e o prazo final. O setor responsável é o dono da demanda, e é ele que recebe os resumos por e-mail."
+    },
+    {
+      "id": "opcoes",
+      "texto": "Aqui tem duas opções que valem atenção. No modo rigoroso, tudo o que a Clara, a assistente deste módulo, sugerir sem ter achado no documento vem desmarcado na revisão. E na demanda sigilosa, o título não aparece nos e-mails de cobrança."
+    },
+    {
+      "id": "rascunho",
+      "texto": "Criou, e a demanda nasce em rascunho, ainda sem nenhuma ação. Daqui, você tem dois caminhos: subir a ata pra Clara ler, ou criar as ações você mesmo."
+    },
+    {
+      "id": "documento",
+      "texto": "O caminho mais rápido é o Adicionar documento. Você envia a ata em PDF, Word ou planilha, ou simplesmente cola o texto. E nada é cobrado antes da sua revisão."
+    },
+    {
+      "id": "lendo",
+      "texto": "A Clara lê o documento e monta o plano. Isso leva alguns minutos, e a página atualiza sozinha."
+    },
+    {
+      "id": "resultado",
+      "texto": "Pronto, ela resumiu a reunião e separou cada combinado em uma ação, já com o responsável e o prazo que a ata indica."
+    },
+    {
+      "id": "trecho",
+      "texto": "E você não precisa confiar de olhos fechados. Cada ação mostra o trecho exato da ata de onde ela saiu, com o selo Trecho conferido."
+    },
+    {
+      "id": "alertas",
+      "texto": "Quando alguma coisa não fecha, ela avisa. Se o prazo da ata já passou, ou se a frase não dá uma data clara, aparece o alerta em vermelho, pra você definir a data certa."
+    },
+    {
+      "id": "revisar",
+      "texto": "Agora é a sua vez de revisar. Confere a descrição de cada ação, escolhe o responsável, e desmarca o que não deve ser cobrado."
+    },
+    {
+      "id": "cadastrar",
+      "texto": "Se a pessoa ainda não está no cadastro, clica em Cadastrar responsável, coloca o nome e o e-mail, e pronto. A partir daí, a Clara reconhece essa pessoa nas próximas atas, e ainda pode atribuir a ela as outras ações que citam o mesmo nome."
+    },
+    {
+      "id": "varios",
+      "texto": "Tem mais de uma pessoa na mesma ação? Usa o Adicionar responsável. E se você não sabe o prazo, marca pedir ao responsável, que ele mesmo propõe a data."
+    },
+    {
+      "id": "ativar",
+      "texto": "Tudo certo, clica em Revisar e ativar. Você escolhe a conta de envio, vê a prévia do e-mail exatamente como o responsável vai receber, e clica em Autorizar e ativar. É só a partir daqui que as cobranças começam."
+    },
+    {
+      "id": "ativa",
+      "texto": "Pronto, a demanda ficou ativa, com as ações na lista. Se esqueceu alguma, abre o documento e clica em Revisar de novo: aparecem só as que ficaram de fora, e as que já estavam ativas não mudam."
+    },
+    {
+      "id": "manual",
+      "texto": "E quando não tem ata, é ainda mais simples. Clica em Nova ação, escreve o que precisa ser feito, escolhe os responsáveis e o prazo, e clica em Criar ação. Ela já começa a ser acompanhada."
+    },
+    {
+      "id": "aviso",
+      "texto": "Agora entra a parte que tira esse peso das suas costas. Na ativação, cada responsável recebe um aviso com a ação e o prazo."
+    },
+    {
+      "id": "cadencia",
+      "texto": "Um dia útil antes do prazo, ele recebe um lembrete. No dia do prazo, mais um aviso. Se atrasar, a cobrança sai no primeiro e no terceiro dia útil depois do prazo, e depois a cada cinco dias úteis, até a ação ser resolvida."
+    },
+    {
+      "id": "escala",
+      "texto": "E se o atraso continua, a cobrança sobe. A partir do terceiro dia útil, a pessoa de referência da área recebe um resumo. E na quarta cobrança sem resposta, a ação vai pro quadro Precisa de você, e quem acompanha a demanda recebe uma notificação no navegador."
+    },
+    {
+      "id": "janela",
+      "texto": "E ninguém recebe cobrança no domingo à noite. Os e-mails só saem em dias úteis, no horário comercial, das oito às dezoito por padrão. Se você ativou fora desse horário, o e-mail sai no próximo horário permitido."
+    },
+    {
+      "id": "setor",
+      "texto": "Enquanto isso, quem criou a demanda e o setor responsável também ficam informados. Eles recebem o resumo das ações logo depois da ativação, um resumo diário com o que vence hoje, o que está atrasado e o que espera aprovação, e um aviso na hora sempre que alguém responder."
+    },
+    {
+      "id": "email",
+      "texto": "Agora vamos ver o lado de quem recebe. O Rafael abre o e-mail e vê a ação, o prazo e três botões. Ele não precisa de login pra responder."
+    },
+    {
+      "id": "concluida",
+      "texto": "Se terminou, ele clica em Ação concluída, descreve o que foi feito e pode anexar a evidência, como um documento, uma foto ou uma planilha."
+    },
+    {
+      "id": "prazo",
+      "texto": "Se precisa de mais tempo, clica em Solicitar novo prazo e informa a nova data, com a justificativa, porque todo novo prazo passa por aprovação. E se a ação é de outra pessoa, clica em Ação de outra área ou pessoa, e indica quem deveria responder."
+    },
+    {
+      "id": "analise",
+      "texto": "Depois de enviar, a ação fica em análise e as cobranças param até alguém aprovar. Só um detalhe importante: a resposta precisa ser pelos botões, porque responder o e-mail em si não atualiza a ação."
+    },
+    {
+      "id": "dois",
+      "texto": "E se a ação tem mais de um responsável, cada um recebe o próprio e-mail e responde separado. Ela só conta como entregue quando todos entregarem, e a lista mostra o andamento."
+    },
+    {
+      "id": "paraaprovar",
+      "texto": "O retorno chega por e-mail, com os botões Aprovar e Recusar, e aparece também no quadro Para aprovar, aqui no Acompanhamento. Nessa etapa é preciso login, e você confere o que foi escrito e os anexos."
+    },
+    {
+      "id": "aprovar",
+      "texto": "Se aprovar, a ação fica concluída, ou o novo prazo passa a valer, ou ela passa pra pessoa indicada, que recebe o aviso."
+    },
+    {
+      "id": "recusar",
+      "texto": "Se recusar, você escreve o motivo, e a ação volta pro responsável, que recebe esse motivo por e-mail."
+    },
+    {
+      "id": "quem",
+      "texto": "Podem aprovar quem criou a demanda, os usuários do setor responsável e os administradores. E a plataforma registra quem decidiu."
+    },
+    {
+      "id": "numeros",
+      "texto": "Dentro da demanda, você vê tudo de uma vez: o total de ações, as concluídas, as atrasadas e as que estão no prazo."
+    },
+    {
+      "id": "lista",
+      "texto": "Na lista, cada ação mostra o responsável, o prazo, a situação e a coluna Cobrança, com o último e-mail enviado e o próximo previsto."
+    },
+    {
+      "id": "painelacao",
+      "texto": "Clicando na ação, abre o histórico completo, com cada aviso e cada cobrança. Daqui dá pra marcar como concluída ou cobrar agora. E no menu Outra ação, você edita, muda o prazo, reatribui, adiciona responsável ou cancela."
+    },
+    {
+      "id": "porpessoa",
+      "texto": "Mais abaixo, os quadros por pessoa e por área mostram onde a coisa está travando, e o gráfico compara, semana a semana, o que estava previsto com o que foi concluído."
+    },
+    {
+      "id": "painelgeral",
+      "texto": "E na aba Painel geral, você vê os números de todas as demandas juntas, o percentual no prazo mês a mês, e quem tem mais atrasos."
+    },
+    {
+      "id": "encerrar",
+      "texto": "Quando a demanda termina, é no menu de três pontinhos que você encerra. Encerrar para as cobranças e guarda o histórico, e o que estava aberto fica como não cumprido."
+    },
+    {
+      "id": "excluir",
+      "texto": "Já o Excluir, só pra administradores, apaga tudo de vez, e você precisa digitar o nome da demanda pra confirmar. Por isso, se quiser manter o registro, use sempre o Encerrar."
+    },
+    {
+      "id": "umavez",
+      "texto": "Pra tudo isso funcionar, o administrador faz uma preparação que só precisa ser feita uma vez. Primeiro, cadastra o e-mail de cada setor nas Configurações, porque é pra lá que vão os resumos."
+    },
+    {
+      "id": "pessoas",
+      "texto": "Depois, confere a aba Pessoas e áreas. Os usuários da plataforma aparecem sozinhos, quem não usa pode ser cadastrado com nome e e-mail, e uma área com e-mail também pode ser responsável por uma ação."
+    },
+    {
+      "id": "aprovacfg",
+      "texto": "Nas Configurações do módulo, ele define o nome que aparece no topo dos e-mails. E a conta de envio é conectada em Integrações."
+    },
+    {
+      "id": "cadenciacfg",
+      "texto": "É ali também que fica a cadência. Você ajusta os horários, os lembretes e as cobranças, trata Carnaval e Corpus Christi como dias não úteis, cadastra feriados locais, e ainda tem a Pausa geral, que suspende toda cobrança automática."
+    },
+    {
+      "id": "ajuste",
+      "texto": "E se as atas da sua empresa têm um formato próprio, o Ajuste da Clara ensina a ela onde procurar. Por exemplo, que o plano de ação é sempre a seção cinco."
+    },
+    {
+      "id": "fim",
+      "texto": "Reunião boa é a que termina em entrega. Com o Acompanhamento, cada combinado tem dono, prazo e cobrança, sem ninguém precisar correr atrás. Quer ver isso funcionando na sua empresa? Fala com a gente, e bora simplificar juntos!"
+    }
+  ]
+}

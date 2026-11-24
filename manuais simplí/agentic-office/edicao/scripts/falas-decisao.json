@@ -1,0 +1,42 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "Vídeo \"Sistema de decisão\" (roteiro em ../sistema-de-decisao/roteiro.md): falas do vídeo principal 16:9 e dos 3 cortes 9:16 por setor. \"Agentic, Office\" com vírgula; nada de frase curta isolada; rode scripts/validar-sotaque.mjs.",
+  "falas": [
+    { "id": "a1", "texto": "Quantas abas você abre por dia pra entender a sua empresa? O sistema de gestão, a planilha, o painel, o extrato do banco, o e-mail..." },
+    { "id": "a2", "texto": "Você sabe que tem estoque parado, que um cliente atrasou e que a meta da semana não fechou. A informação está lá, espalhada em relatórios que ninguém tem tempo de cruzar." },
+    { "id": "a3", "texto": "O problema nunca foi a falta de dado. É a falta de braço pra cruzar tudo isso e agir no mesmo dia." },
+    { "id": "a4", "texto": "Eu sou a Ana, a Assistente de IA da Simplí, e é isso que o Agentic, Office resolve: ele lê, cruza, decide o que fazer e executa. Você só aprova." },
+    { "id": "v1", "texto": "Todo dia, às oito da manhã, a Diretoria de IA entrega a observação do dia: o panorama da operação e o que está acontecendo em cada área da empresa." },
+    { "id": "v2", "texto": "E quando encontra alguma coisa que precisa de ação, ela não só avisa: a ação chega pronta, numa notificação no seu celular e no seu e-mail, esperando a sua aprovação." },
+    { "id": "d1", "texto": "No estoque: trinta e oito itens parados há noventa dias, com sessenta e quatro mil reais empatados. A Diretoria já deixa a tarefa delegada ao César: montar uma promoção que respeite a sua margem mínima." },
+    { "id": "d2", "texto": "Você toca em Iniciar, o César monta a proposta com os preços, e ela volta pra sua aprovação antes de chegar às lojas." },
+    { "id": "d3", "texto": "No financeiro: a conciliação achou uma diferença de mil quatrocentos e cinquenta reais entre os recebíveis de cartão no sistema e o extrato do banco. O dia e o lançamento já vêm apontados, com a tarefa de resolver esperando o seu ok." },
+    { "id": "d4", "texto": "E no plano de ação da semana, três responsáveis pediram um novo prazo. A decisão é sua, num toque: aprovar ou recusar, e cada um recebe a resposta por e-mail." },
+    { "id": "g1", "texto": "E nada disso roda sozinho: toda ação que altera alguma coisa passa pela sua aprovação, e cada decisão fica registrada no histórico." },
+    { "id": "s1", "texto": "No varejo, ele vigia a ruptura, o preço da concorrência e a verba que o fornecedor ficou de pagar." },
+    { "id": "s2", "texto": "Na indústria, acompanha o plano de ação da produção, segue cada pedido pela operação e confere os recebíveis." },
+    { "id": "s3", "texto": "E em serviços, transforma cada reunião em ações com dono e prazo, e entrega leads qualificados para o seu comercial." },
+    { "id": "s4", "texto": "E quando o seu setor pede alguma coisa específica, a Simplí desenvolve módulos e agentes sob medida." },
+    { "id": "f1", "texto": "Menos abas, menos relatório parado e mais decisões tomadas no mesmo dia: esse é o Agentic, Office." },
+    { "id": "f2", "texto": "Quer ver isso funcionando na sua empresa? Fala com a gente, e bora simplificar juntos!" },
+
+    { "id": "varejo-gancho", "texto": "Seu estoque parado custa dinheiro todo dia, e o relatório só te avisa que ele está lá." },
+    { "id": "varejo-1", "texto": "No Agentic, Office, a Diretoria de IA acha trinta e oito itens parados há noventa dias e já deixa a tarefa delegada. Você toca em Iniciar, e a promoção volta pronta, dentro da sua margem mínima, pra você aprovar." },
+    { "id": "varejo-2", "texto": "E quando o concorrente baixa o preço, o Price Watch percebe, e o preço sugerido chega pronto, esperando o seu ok." },
+    { "id": "varejo-fim", "texto": "No varejo, o Agentic, Office vigia estoque, preço e verba de fornecedor, e a Simplí cria os módulos que o seu negócio pedir." },
+
+    { "id": "industria-gancho", "texto": "O plano de ação da reunião de segunda ainda está no papel, esperando alguém cobrar?" },
+    { "id": "industria-1", "texto": "No Agentic, Office, cada ação do plano tem dono e prazo, e a cobrança é automática. Quando três responsáveis da produção pedem um novo prazo, o pedido chega pra você, e você aprova ou recusa num toque." },
+    { "id": "industria-2", "texto": "No financeiro, a conciliação acha uma diferença de mil quatrocentos e cinquenta reais entre os recebíveis e o extrato do banco, com o dia e o lançamento já apontados." },
+    { "id": "industria-fim", "texto": "Na indústria, o Agentic, Office acompanha a produção, os pedidos e o financeiro, e a Simplí cria os agentes que a sua operação pedir." },
+
+    { "id": "servicos-gancho", "texto": "Quantas ações da última reunião ficaram sem dono, e ninguém percebeu?" },
+    { "id": "servicos-1", "texto": "No Agentic, Office, a reunião vira relatório na hora. A de ontem gerou cinco ações sem dono, e a distribuição já chega pronta, com responsável e prazo, pra você aprovar." },
+    { "id": "servicos-2", "texto": "E no comercial, a Prospecção entrega quarenta e um leads qualificados na semana, prontos pra entrar no seu CRM." },
+    { "id": "servicos-fim", "texto": "Em serviços, o Agentic, Office organiza o que foi combinado e alimenta o comercial, e a Simplí cria os módulos que o seu serviço pedir." },
+
+    { "id": "corte-garantia", "texto": "E nada muda sem a sua aprovação: cada decisão fica registrada no histórico." },
+    { "id": "corte-fim", "texto": "Quer ver como isso funciona na prática? O vídeo completo já está no ar, e tem muito mais vindo por aí." }
+  ]
+}

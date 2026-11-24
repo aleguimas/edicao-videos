@@ -1,0 +1,115 @@
+{
+ "voz": "pt-BR-ThalitaMultilingualNeural",
+ "velocidade": "+4%",
+ "observacao": "Vídeo completo do manual. \"Agentic, Office\" com vírgula: sem ela a voz emenda as duas palavras. Nunca deixar frase curta isolada (\"Vencido?\", \"Relaxa.\", \"Bora simplificar?\"): a voz multilíngue escolhe o idioma por frase e, sem contexto, fala com sotaque americano. Junte com uma frase em português e rode scripts/validar-sotaque.mjs.",
+ "falas": [
+  {
+   "id": "abertura",
+   "texto": "Oi, eu sou a Ana, a Assistente de IA da Simplí. Hoje eu vou te mostrar, do começo ao fim, o Verbas e Acordos, um módulo do Agentic, Office."
+  },
+  {
+   "id": "gancho",
+   "texto": "Sabe aquela planilha de verbas que ninguém consegue manter em dia? Verba prometida, nota que chega, desconto no boleto... e no fim do mês, ninguém sabe quanto o fornecedor ainda deve."
+  },
+  {
+   "id": "conceito",
+   "texto": "Aqui é simples. Cada verba que o fornecedor prometeu vira um acordo. Cada nota ou desconto que chega vira um recebimento ligado a ele. E o saldo, o sistema calcula sozinho."
+  },
+  {
+   "id": "abas",
+   "texto": "Pra começar, no menu, abre a Inteligência Comercial e escolhe o Verbas e Acordos. Lá em cima ficam as abas: Painel, Acordos, Recebimentos, Caixa do ERP, Fornecedores, Pendências e Configurações. Bora passar por cada uma delas juntos."
+  },
+  {
+   "id": "painel",
+   "texto": "No Painel, você vê tudo de uma vez: quanto foi negociado, quanto já entrou, o que falta receber e o que já venceu."
+  },
+  {
+   "id": "novo",
+   "texto": "Fechou um acordo novo? Clica em Novo acordo, escolhe o fornecedor, a modalidade e a forma de recebimento. Descreve o combinado em uma linha, coloca o valor e a data prevista, e já anexa o e-mail ou o contrato ali mesmo. Salvou, pronto: o acordo já está na sua carteira."
+  },
+  {
+   "id": "parcelado",
+   "texto": "Se o acordo é parcelado, marca essa opção e coloca o número de parcelas, que o sistema cria uma parcela por mês, sozinho. E quando o valor passa do limite da empresa, o acordo fica em aprovação até a diretoria aprovar, e só depois disso conta no saldo."
+  },
+  {
+   "id": "aprovacao",
+   "texto": "Você também pode pedir pro fornecedor aprovar o que foi negociado. Ele recebe um e-mail com tudo o que vocês combinaram e os botões Aprovar e Não aprovar, sem precisar de login. Se ele não aprovar, precisa dizer o que está diferente, e a resposta aparece no histórico do acordo."
+  },
+  {
+   "id": "situacao",
+   "texto": "Na aba Acordos, a tabela mostra o saldo, o prazo e o comprador de cada acordo, e a coluna Situação te diz o que fazer. Se está vencido, cobra o fornecedor. Se vence em breve, lembra ele. E se está no prazo, é só relaxar."
+  },
+  {
+   "id": "alertas",
+   "texto": "E fica de olho nos alertas, que apontam o que está faltando no cadastro, como acordo sem prazo, sem comprador ou sem evidência. Um acordo sem nenhum alerta está completo."
+  },
+  {
+   "id": "caixa",
+   "texto": "Agora, a parte que mais economiza tempo: a Caixa do ERP. Você não digita nota de bonificação. O sistema busca no ERP as notas e os descontos, agrupa por fornecedor, e a inteligência artificial já sugere o que fazer com cada uma, com o motivo e o nível de confiança. E nada entra no saldo antes de alguém decidir."
+  },
+  {
+   "id": "saidas",
+   "texto": "Se a sugestão está certa, é só clicar em Aceitar. E quando a confiança é alta, dá pra aceitar as notas do fornecedor todas de uma vez. Se preferir decidir na mão, você lança no acordo certo, divide a nota entre dois acordos, cria o acordo retroativo, ou ignora, escrevendo o motivo. E cada decisão sua ensina as próximas sugestões daquele fornecedor."
+  },
+  {
+   "id": "ajuste",
+   "texto": "E se a sugestão não estiver certa, abre a lista de acordos da nota. Ela mostra o sugerido, os acordos com saldo e também os já liquidados, e dá pra buscar pelo código, pela descrição, pelo mês ou pelo valor. Achou o acordo certo, é só clicar em Lançar. E se ele ainda não existe, cria o retroativo ali mesmo, ou cadastra o acordo e volta pra lançar."
+  },
+  {
+   "id": "produtos",
+   "texto": "Um detalhe importante: o acordo é negociado no valor dos produtos, e a nota chega com os impostos. Por isso o módulo conta sempre o valor dos produtos, e mostra o total da nota e os impostos logo embaixo."
+  },
+  {
+   "id": "outras",
+   "texto": "A aba Recebimentos já abre no que falta resolver: o que espera a conferência do financeiro, o que está divergente, e o que entrou com os impostos da nota, que você corrige com um clique. Em Fornecedores fica a posição de cada um, com o comprador responsável. E nas Pendências, a prioridade, o valor de impacto e a ação recomendada pra cada caso."
+  },
+  {
+   "id": "pagina",
+   "texto": "Clicando no código do acordo, você abre a página dele. É ali que fica tudo o que aconteceu: os recebimentos, o saldo que falta, a aprovação do fornecedor e as evidências, como o contrato, o e-mail ou o print do WhatsApp."
+  },
+  {
+   "id": "tratativas",
+   "texto": "Sempre que cobrar o fornecedor, registra ali mesmo, nas tratativas, por exemplo: cobrado por e-mail, prometeu a nota até o dia vinte. O histórico guarda a data e quem registrou, e substitui aquela velha coluna de observações da planilha."
+  },
+  {
+   "id": "recebimento",
+   "texto": "Chegou alguma coisa fora da Caixa do ERP? Usa o Lançar recebimento, escolhe o acordo, o valor, a forma e o número do documento. E se o mesmo documento paga mais de um acordo, dá pra dividir entre eles."
+  },
+  {
+   "id": "planilha",
+   "texto": "Precisa mexer em muitos acordos de uma vez? Exporta o Excel, altera as abas de fornecedores, acordos e recebimentos, e importa de volta. Antes de gravar, o sistema mostra o que vai mudar em cada linha: cadastrar, alterar, sem mudança, ou com erro, já com o motivo."
+  },
+  {
+   "id": "regras",
+   "texto": "E pode ficar tranquilo, porque célula vazia não apaga nada, e se o mesmo documento aparecer duas vezes, o sistema avisa que pode ser duplicidade."
+  },
+  {
+   "id": "emailcomprador",
+   "texto": "Toda semana, às oito da manhã, cada comprador recebe um e-mail com o que pede atenção na carteira dele: os acordos vencidos, os que vencem em breve, os sem prazo, as respostas dos fornecedores e as notas do ERP esperando lançamento. E quem não tem pendência não recebe nada."
+  },
+  {
+   "id": "emaildiretoria",
+   "texto": "A diretoria também recebe o resumo dela, com quanto foi negociado e recebido, o vencido por comprador, os maiores atrasos e os acordos esperando aprovação, tudo pronto pras cobranças da semana."
+  },
+  {
+   "id": "olho",
+   "texto": "E quando bater uma dúvida rápida, pergunta pro Olho de Deus, por exemplo, quanto um fornecedor ainda deve. Ele enxerga tudo o que está no módulo e te responde na hora."
+  },
+  {
+   "id": "rotina",
+   "texto": "Com isso, a sua rotina cabe em dez minutos por semana. Lê o e-mail, cobra os vencidos e registra a cobrança, combina a data dos acordos sem prazo, aceita as sugestões da Caixa do ERP, resolve o que ficou pendente em Recebimentos e cadastra no mesmo dia todo acordo novo."
+  },
+  {
+   "id": "config",
+   "texto": "E pra quem é Admin, a aba Configurações define quem faz o quê. O comprador cadastra e cuida dos seus acordos, o assistente de compras opera pela equipe inteira, o financeiro confere os recebimentos, o marketing registra as tratativas e a diretoria aprova o que passa do limite."
+  },
+  {
+   "id": "config2",
+   "texto": "É ali também que ficam os parâmetros, como a tolerância de centavos e o limite de aprovação, as listas do cadastro e os e-mails semanais, com um botão pra mandar um teste antes de ligar."
+  },
+  {
+   "id": "fim",
+   "texto": "Menos planilha, mais verba no caixa, e cada fornecedor cumprindo o que prometeu. Quer ver isso funcionando na sua empresa? Fala com a gente, e bora simplificar juntos!"
+  }
+ ]
+}

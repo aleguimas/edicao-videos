@@ -1,0 +1,75 @@
+{
+ "voz": "pt-BR-ThalitaMultilingualNeural",
+ "velocidade": "+4%",
+ "observacao": "Vídeo das verbas em conta corrente (aba Verbas). 'Agentic, Office' com vírgula. Nada de frase curta isolada (sotaque americano): rodar scripts/validar-sotaque.mjs.",
+ "falas": [
+  {
+   "id": "abertura",
+   "texto": "Oi, eu sou a Ana, a Assistente de IA da Simplí. Hoje eu vou te mostrar as verbas em conta corrente, a aba nova do Verbas e Acordos, no Agentic, Office."
+  },
+  {
+   "id": "gancho",
+   "texto": "Sabe aquela verba que o fornecedor deixa pra loja usar quando precisar? Um café da manhã com a equipe, a premiação do vendedor, um evento. Ela costuma ficar numa planilha, e no fim ninguém sabe quanto sobrou, nem consegue mostrar pro fornecedor onde o dinheiro foi parar."
+  },
+  {
+   "id": "conceito",
+   "texto": "Aqui ela vira uma conta corrente. Entra o crédito do fornecedor, sai cada gasto com o comprovante, e o saldo é calculado sozinho, sem nunca ficar negativo."
+  },
+  {
+   "id": "conta",
+   "texto": "Pra começar, abre a aba Verbas e clica em Nova conta de verba. Escolhe o fornecedor, dá um nome, como Verba de marketing 2026, e se quiser anota o que foi combinado. Um fornecedor pode ter várias contas, uma pra cada finalidade."
+  },
+  {
+   "id": "credito",
+   "texto": "Dentro da conta, clica em Novo crédito. Abre o cadastro de acordo que você já conhece, com o destino nesta conta, e aí você escolhe quando o dinheiro entra."
+  },
+  {
+   "id": "quando",
+   "texto": "Se o fornecedor já disponibilizou, marca Agora, e o valor vira saldo na hora. Se ele ainda vai pagar, marca Quando o fornecedor pagar, e cada recebimento do acordo, lançado à mão, pela Caixa do ERP ou pela planilha, vira saldo na conta. Nos dois casos, o acordo continua cobrando o fornecedor."
+  },
+  {
+   "id": "destino",
+   "texto": "E no cadastro normal de acordo, o campo Destino também deixa mandar a verba pra uma conta."
+  },
+  {
+   "id": "gasto",
+   "texto": "Quando usar a verba, clica em Registrar gasto e informa a data, o valor, a categoria, quem recebeu, a loja e uma descrição. O comprovante é obrigatório, pode ser a nota, o recibo ou uma foto. O comprador, o assistente de compras e o trade registram, sem precisar de aprovação."
+  },
+  {
+   "id": "trava",
+   "texto": "E pode ficar tranquilo, porque o saldo nunca fica negativo. Se o gasto passa do disponível, o sistema avisa e não deixa registrar."
+  },
+  {
+   "id": "extrato",
+   "texto": "Cada crédito e cada gasto aparecem no extrato, com o saldo depois dele, o comprovante pra baixar e quem registrou, na ordem em que foram lançados. Lançou errado? O financeiro estorna com o motivo, e nada se apaga, porque o original fica marcado como estornado."
+  },
+  {
+   "id": "trava2",
+   "texto": "A mesma trava vale pro acordo. Se a conta já gastou essa verba, o sistema não deixa reduzir nem cancelar o acordo de crédito, e mostra quanto ainda está disponível."
+  },
+  {
+   "id": "prestar",
+   "texto": "Na hora de prestar contas, clica em Prestar contas, informa o e-mail do fornecedor e o período. Sai um e-mail pela caixa da empresa com o resumo e um link, válido por cento e oitenta dias, onde o fornecedor vê cada lançamento e baixa os comprovantes e o extrato em Excel. Ele só não vê quem registrou cada gasto."
+  },
+  {
+   "id": "link",
+   "texto": "Na conta, você acompanha os envios e se o link já foi aberto, e pode desativar o link quando quiser."
+  },
+  {
+   "id": "painel",
+   "texto": "No Painel, os cartões das verbas mostram o disponível, o gasto no período, as contas sem saldo e o saldo parado, que é a conta sem movimento há noventa dias ou mais. E ainda tem os gastos por categoria e os maiores saldos."
+  },
+  {
+   "id": "alertas",
+   "texto": "A verba parada também chega no e-mail semanal do comprador, do assistente e da diretoria. E quando bater uma dúvida, é só perguntar pro Olho de Deus, por exemplo, quanto ainda tem na verba de um fornecedor."
+  },
+  {
+   "id": "config",
+   "texto": "Pra quem é Admin, as categorias de gasto ficam em Configurações, na parte de Listas. Já vêm oito prontas, e dá pra incluir as suas."
+  },
+  {
+   "id": "fim",
+   "texto": "Verba bem usada, comprovada e com o saldo sempre em dia. Quer ver isso funcionando na sua empresa? Fala com a gente, e bora simplificar juntos!"
+  }
+ ]
+}

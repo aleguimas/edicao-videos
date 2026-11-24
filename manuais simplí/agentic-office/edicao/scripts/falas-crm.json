@@ -1,0 +1,279 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "Vídeo de apresentação do Simplí CRM (YouTube, 16:9). Plano em ../../simpli-crm/apresentação/plano-video-apresentacao-crm.md. Ids com o prefixo do capítulo. Nunca deixar frase curta isolada; rode scripts/validar-sotaque.mjs. Palavras em inglês que a voz erra vão com grafia fonética e entram em \"grafias\" depois do teste de pronúncia.",
+  "falas": [
+    {
+      "id": "abertura-1",
+      "texto": "Tem dois clientes que muita empresa perde sem perceber. O novo, que pergunta o preço às onze da noite, fica sem resposta e compra no concorrente. E o antigo, que já comprou com você, volta a chamar e é atendido como um desconhecido."
+    },
+    {
+      "id": "abertura-2",
+      "texto": "Ninguém do seu time fez isso por mal. É que o WhatsApp está em um lugar, o funil em outro, as vendas no ERP e o relatório na planilha de alguém."
+    },
+    {
+      "id": "abertura-3",
+      "texto": "Neste vídeo, eu vou mostrar como o Simplí CRM junta tudo isso em uma plataforma só. E vou mostrar acompanhando um cliente, da primeira mensagem até a recompra."
+    },
+    {
+      "id": "quem-1",
+      "texto": "Eu sou a Ana, a Assistente de IA da Simplí. Se a sua empresa vende pelo WhatsApp, tem um time atendendo e quer saber o que acontece entre a primeira conversa e o faturamento, este vídeo é para você."
+    },
+    {
+      "id": "quem-2",
+      "texto": "O Simplí CRM atende dois perfis. Varejo e distribuição, com volume de atendimento e ERP. E empresas de serviço, como agências e consultorias, que vivem de contrato recorrente. Vou usar o varejo como exemplo e, no final, mostro o lado de serviços."
+    },
+    {
+      "id": "quem-3",
+      "texto": "A ideia cabe em uma frase: um CRM que atende, vende e gerencia, no mesmo lugar."
+    },
+    {
+      "id": "quem-4",
+      "texto": "Para acompanhar, vamos usar a Loja Modelo, uma loja de materiais de construção. O nosso cliente é o Marcos, que está reformando o banheiro."
+    },
+    {
+      "id": "cap1-1",
+      "texto": "O Marcos pode chegar por vários caminhos, e a plataforma recebe todos eles."
+    },
+    {
+      "id": "cap1-2",
+      "texto": "Ele pode estar no site da loja e preencher um formulário ou um póp-âp criado na Simplí. O lead cai direto no funil, e mais adiante eu mostro como isso funciona."
+    },
+    {
+      "id": "cap1-3",
+      "texto": "Ele pode simplesmente mandar mensagem. O WhatsApp, pela API oficial da Meta ou pelo WhatsApp comum, e o Direct do Instagram caem na mesma caixa de entrada."
+    },
+    {
+      "id": "cap1-4",
+      "texto": "E aqui tem um ponto importante: a Simplí é Téc Prováider da Meta. Isso significa que a conexão do seu WhatsApp e do seu Instagram é feita direto com a Meta, de forma guiada, com número verificado e tém-pleits aprovados."
+    },
+    {
+      "id": "cap1-5",
+      "texto": "No Instagram, a plataforma vai além do Direct. O Marcos comentou \"porcelanato\" em um post da loja? Uma automação responde no comentário e chama ele no Direct. Você também automatiza respostas a mensagens e a menções, cria o menu do perfil e monta sequências de mensagens com espera. O comentário do feed vira conversa de venda."
+    },
+    {
+      "id": "cap1-6",
+      "texto": "O seu time para de alternar entre aplicativos, porque tudo chega em uma tela só."
+    },
+    {
+      "id": "cap2-1",
+      "texto": "São onze da noite, a loja está fechada, e o Marcos manda um áudio."
+    },
+    {
+      "id": "cap2-1b",
+      "voz": "pt-BR-AntonioNeural",
+      "velocidade": "+0%",
+      "texto": "Preciso de um porcelanato para o banheiro. O que vocês têm?"
+    },
+    {
+      "id": "cap2-2",
+      "texto": "Quem responde é o Agente de IA. Ele entende texto, áudio e PDF. E aqui está a diferença para um chatbot de menu: ele não obriga o cliente a escolher opção um, dois ou três. Ele consulta a base de conhecimento da sua empresa e o seu catálogo."
+    },
+    {
+      "id": "cap2-3",
+      "texto": "O FAQ e os PDFs da empresa viram conhecimento do agente. A busca de produtos é semântica: o cliente descreve o que precisa com as palavras dele, e o agente localiza os itens com os dados que vêm do seu ERP."
+    },
+    {
+      "id": "cap2-4",
+      "texto": "No módulo Agente de IA, o gestor define quando ele trabalha, por caixa de entrada: vinte e quatro horas, só fora do horário ou só no horário comercial. É ali também que ele liga e desliga a IA em cada canal, e depois disso não precisa ficar mexendo."
+    },
+    {
+      "id": "cap2-5",
+      "texto": "Quando o assunto pede uma pessoa, ele transfere para o time, e não toma a conversa de volta. Quando o atendente responde, a IA se desliga naquela conversa."
+    },
+    {
+      "id": "cap2-7",
+      "texto": "E isso não é teoria, porque o primeiro atendimento da própria Simplí é feito por um agente desses. Essa agente sou eu, a Ana. No final, eu conto como falar comigo."
+    },
+    {
+      "id": "cap3-1",
+      "texto": "De manhã, a conversa do Marcos está na fila. A primeira pessoa que responde assume, e a atribuição acontece sozinha. Dá até para limitar isso aos colaboradores, para o gestor não pegar uma conversa sem querer."
+    },
+    {
+      "id": "cap3-2",
+      "texto": "Se o Marcos já tem um vendedor, entra a carteirização. Ele volta a chamar e a conversa vai direto para o dono da carteira, de forma permanente ou temporária. E se o vendedor sai da empresa, a carteira é redistribuída."
+    },
+    {
+      "id": "cap3-3",
+      "texto": "Dentro da conversa, o atendente tem o que precisa. Frases rápidas para as perguntas de sempre. Notas privadas, que o cliente nunca vê. E menção a um colega, com a conversa fixada para ele até dar o visto."
+    },
+    {
+      "id": "cap3-4",
+      "texto": "E, se precisar, ele também move o Marcos de etapa no funil sem sair dali."
+    },
+    {
+      "id": "cap4-1",
+      "texto": "É aqui que o atendimento vira venda. A conversa do Marcos já é um card no Cã-ban, com o histórico junto. E a IA atualiza o card de acordo com a conversa, então o atendente não precisa atualizar nada manualmente. Você cria quantos funis precisar, do jeito que o seu processo funciona."
+    },
+    {
+      "id": "cap4-2",
+      "texto": "O Marcos pediu orçamento. E aqui mora um dinheiro que muita empresa deixa na mesa: o orçamento que ninguém cobrou."
+    },
+    {
+      "id": "cap4-3",
+      "texto": "No módulo de Orçamentos, o orçamento parado entra em uma cadência de follow-up. O prazo e a mensagem são definidos com você na implantação, e a tarefa entra na lista do vendedor responsável, com o cliente, o valor e os dias em aberto."
+    },
+    {
+      "id": "cap4-4",
+      "texto": "A ferramenta lembra, e o vendedor faz o papel dele: chama o cliente, faz um atendimento personalizado e fecha a venda."
+    },
+    {
+      "id": "cap4-5",
+      "texto": "O vendedor prometeu retornar na sexta? Ele agenda o lembrete pela própria conversa e recebe a notificação no dia."
+    },
+    {
+      "id": "cap4-6",
+      "texto": "E como vendedor não fica sentado, o Simplí instala no celular como aplicativo, com notificação de mensagem nova, menção e follow-up."
+    },
+    {
+      "id": "cap5-1",
+      "texto": "O Marcos comprou, e em muito CRM a história termina aqui, com um card na coluna de ganho. Aqui, ela continua."
+    },
+    {
+      "id": "cap5-2",
+      "texto": "A Simplí se conecta ao ERP da empresa e traz clientes, pedidos e produtos, sem digitação dupla. Com isso, o CRM classifica cada cliente automaticamente: novo, ativo, recorrente, VIP, em risco ou inativo. Os critérios são definidos com você: dias sem comprar, valor e número de compras."
+    },
+    {
+      "id": "cap5-3",
+      "texto": "Cada cliente tem uma linha do tempo: cadastro, primeira compra, cada mudança de classificação e os eventos de que participou. E o histórico de pedidos fica ali, sem abrir o ERP. Em dez segundos, o vendedor entende quem está do outro lado."
+    },
+    {
+      "id": "cap5-4",
+      "texto": "Se você vende material de construção, tem um módulo feito para isso: o Ciclo de Vida da Obra. Pelos produtos comprados, a plataforma identifica em que fase da obra o cliente está e mostra a janela para oferecer a próxima etapa. O vendedor deixa de esperar o cliente lembrar da loja."
+    },
+    {
+      "id": "cap6-1",
+      "texto": "Quase quatro meses depois, o Marcos parou de comprar. A classificação dele mudou para em risco, sem ninguém mexer. É hora de falar com ele, e com todo mundo na mesma situação."
+    },
+    {
+      "id": "cap6-2",
+      "texto": "E aqui entra a parte mais nova da plataforma: o Relacionamento. Além dos disparos de WhatsApp, agora você tem e-mail marketing, SMS e gestão de grupos de WhatsApp. Tudo no mesmo sistema, ligado à mesma base de clientes."
+    },
+    {
+      "id": "cap6-3",
+      "texto": "Tudo começa no público. Na Segmentação de Base, você filtra por tag, DDD, data de cadastro, classificação ou quem recebeu uma campanha e não comprou. A contagem aparece enquanto você monta. O segmento dinâmico se atualiza sozinho, e o mesmo público serve para WhatsApp, e-mail e SMS."
+    },
+    {
+      "id": "cap6-4",
+      "texto": "No WhatsApp, você dispara campanhas pela API oficial, com tém-pleit aprovado, agendamento e métricas de entrega, leitura e clique. Com os flows, monta sequências visuais com esperas e condições."
+    },
+    {
+      "id": "cap6-5",
+      "texto": "O e-mail marketing é novo. Você monta a mensagem em um editor de blocos, autentíca o domínio da sua empresa e envia para os seus segmentos. O relatório mostra entrega, abertura, clique e descadastro, e separa o clique de gente do clique de robô de segurança, para você não comemorar número falso."
+    },
+    {
+      "id": "cap6-6",
+      "texto": "A gestão de grupos transforma o WhatsApp em canal de comunidade. Você cria grupos em massa, divulga um único link que direciona para o próximo grupo quando um enche, agenda disparos, conta com moderação por IA, e quem entra vira contato no CRM."
+    },
+    {
+      "id": "cap6-7",
+      "texto": "E o SMS chegou à plataforma. Você usa os mesmos públicos, agenda o envio, acompanha o painel de resultados, e quem responde SAIR é descadastrado. Nada sai entre dez da noite e sete da manhã."
+    },
+    {
+      "id": "cap6-8",
+      "texto": "Para a base continuar crescendo, entra a Prospecção: você captura leads no seu próprio site. Você instala um script e cria póp-âps e formulários com as suas regras: aparece depois de alguns segundos, quando a pessoa rola a página ou quando ela vai sair do site. E a plataforma também detecta os formulários que já existem no seu site e manda cada um para o funil certo. O lead entra no Cã-ban, e o botão ainda pode abrir a conversa no WhatsApp."
+    },
+    {
+      "id": "cap7-1",
+      "texto": "Agora vamos para quem muitas vezes fica de fora do CRM: o vendedor da loja física. Ele está no balcão, longe do computador, e tem cliente parado na carteira."
+    },
+    {
+      "id": "cap7-2",
+      "texto": "Para ele, a Simplí tem o App do Vendedor de Loja. Ele instala no celular e abre uma tela simples, com os clientes para contatar."
+    },
+    {
+      "id": "cap7-3",
+      "texto": "Tudo começa com o gestor, em Gestão de Tarefas. Ele escolhe a base pela classificação do CRM, pelo Ciclo da Obra ou por planilha, e define quantos clientes cada vendedor recebe e com que frequência. A plataforma distribui sozinha as rodadas: primeiro para o dono da carteira, e o restante entre a equipe."
+    },
+    {
+      "id": "cap7-4",
+      "texto": "O Marcos aparece na lista do vendedor dele. Com um toque, o vendedor abre o WhatsApp, vê o que o Marcos já comprou, copia a mensagem sugerida e marca que fez o contato."
+    },
+    {
+      "id": "cap7-5",
+      "texto": "A partir daí, a régua de follow-up entra em ação. Os retornos voltam sozinhos para a lista nas próximas rodadas, junto com os clientes novos."
+    },
+    {
+      "id": "cap7-6",
+      "texto": "O Marcos respondeu, voltou à loja e levou as louças e os metais do banheiro. A venda vem do ERP, e só conta se o cliente comprou depois do contato, então essa compra entra na conta do vendedor dele. E o gestor acompanha quem abriu a lista, quem chamou o cliente, quem marcou o contato e quanto vendeu, vendedor por vendedor."
+    },
+    {
+      "id": "cap7-7",
+      "texto": "Se quem vende é o time digital, a mesma lista funciona, com um botão que abre a conversa no Simplí Chat."
+    },
+    {
+      "id": "cap8-1",
+      "texto": "Agora vamos para a cadeira do gestor. O Dashboard mostra os atendimentos por canal, hora a hora, os painéis de sentimentos e de satisfação, e quantas conversas estão com o agente, aguardando humano, em atendimento ou resolvidas. Logo abaixo, ele vê a lista de atendimentos, com filtro por canal, agente e etiqueta. Os Relatórios abrem por agente, por time e por canal, com visão geral, digital e de loja física. E cada gestor vê a própria equipe."
+    },
+    {
+      "id": "cap8-2",
+      "texto": "O Painel do Instagram mostra seguidores, alcance, engajamento e melhores posts, com o histórico guardado dia a dia."
+    },
+    {
+      "id": "cap8-3",
+      "texto": "Com a Gestão à Vista, a operação vai para a TV da loja: a tela mostra quantos clientes estão aguardando atendimento humano e há quanto tempo estão esperando. Cliente esquecido fica visível para todo mundo."
+    },
+    {
+      "id": "cap8-4",
+      "texto": "Na Análise de Sentimentos, a IA lê as conversas e classifica o sentimento de clientes e equipe, para você enxergar problema de atendimento em escala. E a pesquisa de satisfação fica junto."
+    },
+    {
+      "id": "cap8-5",
+      "texto": "E nos feirões e campanhas de loja, o módulo de Eventos acompanha as vendas reais do ERP, rankeia os vendedores, mostra os produtos mais vendidos, compara com o período-base e marca os compradores com uma tag, pronta para o próximo rê-márketing."
+    },
+    {
+      "id": "cap8-6",
+      "texto": "Você também pode atrelar campanhas ao evento criado, como a de reativação que vimos antes. Aí vem a pergunta que importa: a campanha vendeu? O módulo cruza os leads impactados com os pedidos do ERP e mostra quantos compraram, quanto compraram e o retorno financeiro da campanha do evento."
+    },
+    {
+      "id": "cap9-1",
+      "texto": "Agora, uma novidade que muda o jeito de operar. Se a sua empresa usa agentes de IA, eles podem trabalhar dentro do CRM por uma conexão MCP, o padrão usado para ligar agentes a sistemas. Um agente pode criar um card, mover de etapa, colocar tag ou preparar uma campanha."
+    },
+    {
+      "id": "cap9-2",
+      "texto": "E o controle continua com você. Para cada família de ação, você decide se o agente age sozinho ou se pede aval. Quando pede, a ação fica na aba Aprovações, com a prévia, até alguém aprovar ou recusar."
+    },
+    {
+      "id": "cap9-3",
+      "texto": "A IA adianta o trabalho, e a decisão continua com a sua equipe."
+    },
+    {
+      "id": "cap10-1",
+      "texto": "Prometi falar das empresas de serviço. Se você tem agência ou consultoria, o Simplí também trabalha nesse modo."
+    },
+    {
+      "id": "cap10-2",
+      "texto": "Em Contratos, você acompanha a carteira, com valores mensais, status e próxima call. Projetos têm cã-ban de execução por empresa, prioridades e uma página pública para compartilhar o andamento com o cliente. O Financeiro mostra receita, custos e lucro líquido. E o painel de Gestão consolida tudo isso com contatos e metas."
+    },
+    {
+      "id": "fim-1",
+      "texto": "Vamos recapitular o que aconteceu com o Marcos. Ele foi atendido às onze da noite. O vendedor assumiu com todo o contexto. O orçamento teve follow-up. A venda voltou do ERP e virou classificação. E, quando ele esfriou, a empresa foi atrás pelo canal certo, o vendedor chamou pelo app, e o Marcos voltou para levar as louças e os metais."
+    },
+    {
+      "id": "fim-2",
+      "texto": "Esse é o diferencial do Simplí CRM. Uma plataforma só, do primeiro contato à recompra. WhatsApp e Instagram conectados direto com a Meta, porque somos Téc Prováider. IA treinada com os dados da sua empresa e com pessoas no controle. Um CRM ligado ao faturamento real. Relacionamento por WhatsApp, e-mail, SMS e grupos. Captação de leads no seu site. Um app para o vendedor da loja. E módulos que você liga conforme a necessidade da sua operação."
+    },
+    {
+      "id": "fim-3",
+      "texto": "E a mensalidade é fixa. Os tém-pleits da Meta são pagos direto na conta da sua empresa, e o SMS é cobrado à parte, com valor sob consulta."
+    },
+    {
+      "id": "fim-4",
+      "texto": "Se você quer ver isso com a realidade da sua empresa, o link para falar com o nosso time está na descrição. E, se preferir, me chama no WhatsApp e me veja trabalhando."
+    },
+    {
+      "id": "fim-5",
+      "texto": "Se o vídeo ajudou, se inscreva no canal. Até a próxima."
+    }
+  ],
+  "grafias": {
+    "Cã-ban": "Kanban",
+    "cã-ban": "kanban",
+    "póp-âp": "popup",
+    "tém-pleit": "template",
+    "rê-márketing": "remarketing",
+    "Téc": "Tech",
+    "Prováider": "Provider",
+    "autentíca": "autentica"
+  }
+}

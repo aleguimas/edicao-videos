@@ -1,0 +1,14 @@
+{
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+4%",
+  "observacao": "\"Agentic, Office\" com vírgula: sem ela a voz emenda as duas palavras. Nunca deixar frase curta isolada (\"Vencido?\", \"Relaxa.\", \"Bora simplificar?\"): a voz multilíngue escolhe o idioma por frase e, sem contexto, fala com sotaque americano. Junte com uma frase em português e rode scripts/validar-sotaque.mjs. A legenda usa as palavras sem pontuação.",
+  "falas": [
+    { "id": "abertura", "texto": "Oi, eu sou a Ana, a Assistente de IA da Simplí. Hoje eu vou te mostrar o Verbas e Acordos, um módulo do Agentic, Office." },
+    { "id": "gancho", "texto": "Sabe aquela planilha de verbas que ninguém consegue manter em dia? Verba prometida, nota que chega, desconto no boleto... e no fim do mês, ninguém sabe quanto o fornecedor ainda deve." },
+    { "id": "conceito", "texto": "Aqui é simples. Cada verba que o fornecedor prometeu vira um acordo. Cada nota ou desconto que chega vira um recebimento ligado a ele. E o saldo, o sistema calcula sozinho." },
+    { "id": "painel", "texto": "No Painel, você vê tudo de uma vez: quanto foi negociado, quanto já entrou, o que falta receber e o que já venceu." },
+    { "id": "novo", "texto": "Fechou um acordo novo? Clica em Novo acordo, escolhe o fornecedor e a modalidade. Descreve o combinado em uma linha, coloca o valor e a data prevista. Salvou, pronto: o acordo já está na sua carteira." },
+    { "id": "situacao", "texto": "E daí pra frente, a Situação te diz o que fazer. Se está vencido, cobra o fornecedor. Se vence em breve, lembra ele. E se está no prazo, é só relaxar." },
+    { "id": "fim", "texto": "Menos planilha, mais verba no caixa. Quer ver isso funcionando na sua empresa? Fala com a gente, e bora simplificar juntos!" }
+  ]
+}
