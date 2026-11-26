@@ -163,3 +163,35 @@ Conheça: https://simpli.ia.br/solucoes/simpli-crm
 Apresentação completa: [LINK DO VÍDEO]
 
 #Shorts #SimpliCRM #CRM #Marketing #Vendas
+
+---
+
+## Corte 6 · A IA passa o bastão com resumo
+
+Vídeo: `corte-06-passagem-de-bastao.mp4` · Capa: `capa-corte-06.png`
+O vídeo fecha com uma chamada genérica ("Agende agora mesmo uma apresentação"), que vale para todos os canais. O "comenta AGENDA" fica só na copy do Instagram, e a automação de comentário precisa responder à palavra AGENDA com o link para agendar.
+
+### Instagram
+
+A IA passou o atendimento, e o seu vendedor teve que ler a conversa inteira? 😩
+
+No Simplí CRM, em toda transferência da IA para o seu time:
+👉 A IA deixa um resumo em nota privada para quem vai assumir
+👉 Se o cliente já comprou (direto da base do CRM, integrada ao seu ERP)
+👉 O que ele quer e o que já foi informado
+👉 Por que foi transferido e qual é o próximo passo
+👉 O cliente não vê a nota, e ninguém precisa repetir nada
+
+Quer ver na sua empresa? Comenta **AGENDA** que a gente te manda o link da demonstração. 📅
+
+#SimpliCRM #CRM #AgenteDeIA #Atendimento #WhatsApp
+
+### YouTube Shorts
+
+**Título:** A IA passa o atendimento para o seu time com resumo pronto #Shorts
+**Descrição:**
+No Simplí CRM, em toda transferência da IA para uma pessoa, a IA deixa uma nota privada com o resumo: histórico de compras, o que o cliente quer, o que já foi informado, o motivo da transferência e o próximo passo.
+
+Agende uma demonstração: https://simpli.ia.br/solucoes/simpli-crm
+
+#Shorts #SimpliCRM #CRM #AgenteDeIA #Atendimento

@@ -16,6 +16,7 @@ import { TelaAgenteIA } from "./crm/TelaAgente";
 import { TelaChatNoite } from "./crm/TelaChat";
 import { TelaFaq } from "./crm/TelaFaq";
 import { CORTES_ACOMP } from "./cortes-acompanhamento/Cortes";
+import { CapaBastaoCrm, CorteBastaoCrm, DURACAO_BASTAO_CRM } from "./cortes-crm/Bastao";
 import { CORTES_CRM } from "./cortes-crm/Cortes";
 import { Apresentacao, ApresentacaoPiloto, DURACAO_APRESENTACAO, DURACAO_PILOTO } from "./apresentacao/Apresentacao";
 import { CapaVerbas } from "./verbas/CapaVerbas";
@@ -34,6 +35,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="ApresentacaoCrm" component={ApresentacaoCrm} durationInFrames={DURACAO_CRM} fps={30} width={1920} height={1080} />
       <Composition id="AnuncioCrm" component={AnuncioCrm} durationInFrames={DURACAO_ANUNCIO_CRM} fps={30} width={1920} height={1080} />
       <Composition id="AnuncioVerticalCrm" component={AnuncioVerticalCrm} durationInFrames={DURACAO_ANUNCIO_V_CRM} fps={30} width={1080} height={1920} />
+      <Composition id="CorteBastaoCrm" component={CorteBastaoCrm} durationInFrames={DURACAO_BASTAO_CRM} fps={30} width={1080} height={1920} />
+      <Still id="CapaBastaoCrm" component={CapaBastaoCrm} width={1080} height={1920} />
       <Composition id="BumperCrm" component={BumperCrm} durationInFrames={DURACAO_BUMPER_CRM} fps={30} width={1920} height={1080} />
       {CORTES_CRM.map((c) => (
         <Composition key={c.n} id={`CorteCrm${c.n}`} component={c.Corte} durationInFrames={c.duracao} fps={30} width={1080} height={1920} />

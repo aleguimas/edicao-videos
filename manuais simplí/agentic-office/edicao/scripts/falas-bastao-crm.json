@@ -1,0 +1,40 @@
+{
+ "voz": "pt-BR-ThalitaMultilingualNeural",
+ "velocidade": "+4%",
+ "observacao": "Corte 9:16 do Simplí CRM: a passagem de bastão da IA para o humano com o resumo em nota privada. O fim é genérico (agende uma apresentação); o 'comenta AGENDA' fica só na copy do Instagram.",
+ "falas": [
+  {
+   "id": "bas-gancho",
+   "texto": "Seu vendedor assume o atendimento da IA e precisa ler a conversa inteira?"
+  },
+  {
+   "id": "bas-dor",
+   "texto": "Na maioria dos sistemas, a pessoa chega sem contexto, rola dezenas de mensagens e pergunta de novo o que o cliente já respondeu."
+  },
+  {
+   "id": "bas-ponte",
+   "texto": "No Simplí CRM, é diferente."
+  },
+  {
+   "id": "bas-transfere",
+   "texto": "O Marcos pediu desconto para fechar. A IA entende que precisa de uma pessoa e transfere para o time."
+  },
+  {
+   "id": "bas-resumo",
+   "texto": "E, em toda transferência, ela deixa uma nota privada para quem vai assumir: se o cliente já comprou, o que ele quer, o que já foi informado, por que foi transferido e qual é o próximo passo."
+  },
+  {
+   "id": "bas-erp",
+   "texto": "As compras vêm da base do CRM, integrada ao seu ERP, e o cliente não vê essa nota."
+  },
+  {
+   "id": "bas-assume",
+   "texto": "O Rafael lê em segundos e continua de onde a IA parou, sem o cliente repetir nada."
+  },
+  {
+   "id": "bas-fim",
+   "texto": "Quer ver isso funcionando na sua empresa? Agende agora mesmo uma apresentação e conheça o Simplí CRM."
+  }
+ ],
+ "grafias": {}
+}

@@ -17,7 +17,7 @@ const ALT = 1120 / K;
 export const clampF = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 type M = (p: string, n?: number) => number;
 
-const ABAS = [["dashboard", "Dashboard"], ["tarefas", "Tarefas"], ["chat", "Simplí Chat"], ["gestaoTarefas", "Gestão de ta..."], ["linhas", "Mais"]] as const;
+const ABAS = [["dashboard", "Dashboard"], ["tarefas", "Tarefas"], ["chat", "Simplí Chat"], ["kanban", "Kanban"], ["linhas", "Mais"]] as const;
 const Rodape: React.FC<{ ativo?: string }> = ({ ativo }) => (
   <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 56, background: "#000000", display: "flex", alignItems: "center", justifyContent: "space-around", color: "#FFFFFF", fontSize: 11, zIndex: 5 }}>
     {ABAS.map(([i, t]) => (
@@ -62,12 +62,33 @@ const Ind: React.FC<{ r: string; v: string; s?: string; c?: string; aceso?: bool
 );
 
 // ---------- Simplí Chat
-export type Msg = { t: "cliente" | "enviada" | "sistema" | "audio"; a?: string; x?: string; h?: string; de?: number; prog?: number };
+export type Msg = { t: "cliente" | "enviada" | "sistema" | "audio" | "nota"; a?: string; x?: string; h?: string; de?: number; prog?: number; acesos?: readonly number[]; cadeado?: boolean };
+
+// nota privada (só a equipe vê), em amarelo como no aplicativo; as linhas com "•" acendem pelo índice
+const Nota: React.FC<{ m: Msg; est: React.CSSProperties }> = ({ m, est }) => {
+  const itens = (m.x ?? "").split("\n");
+  let b = -1;
+  return (
+    <div style={{ display: "flex", justifyContent: "flex-end", margin: "7px 0", ...est }}>
+      <div style={{ maxWidth: 352, background: "#FEF3C7", color: "#92400E", borderRadius: 10, padding: "9px 12px", boxShadow: "0 1px 3px rgba(16,24,40,0.12)" }}>
+        <div style={{ fontSize: 11.5, fontWeight: 600, color: "#B45309" }}>{m.a}</div>
+        <div style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 10.5, fontWeight: 500, color: "#D97706", margin: "2px 0 5px", padding: m.cadeado ? "1px 6px" : 0, borderRadius: 5, background: m.cadeado ? "#FDE68A" : "transparent", outline: m.cadeado ? "2px solid #10B981" : "none" }}><Icone nome="cadeado" tam={11} cor="#D97706" />Nota privada</div>
+        {itens.map((l, i) => {
+          if (l.startsWith("•")) b += 1;
+          const aceso = l.startsWith("•") && (m.acesos ?? []).includes(b);
+          return <div key={i} style={{ fontSize: 13, lineHeight: 1.36, minHeight: l ? 0 : 8, borderRadius: 5, padding: "1px 4px", margin: "0 -4px", background: aceso ? "#D1FAE5" : "transparent", color: aceso ? "#065F46" : "#92400E", boxShadow: aceso ? "inset 3px 0 0 #10B981" : "none" }}>{l}</div>;
+        })}
+        <div style={{ fontSize: 9.5, opacity: 0.7, textAlign: "right", marginTop: 2 }}>{m.h} ✓✓</div>
+      </div>
+    </div>
+  );
+};
 const Bolha: React.FC<{ m: Msg }> = ({ m }) => {
   const frame = useCurrentFrame();
   const k = interpolate(frame, [m.de ?? -99, (m.de ?? -99) + 8], [0, 1], clampF);
   if (k <= 0) return null;
   const est = { opacity: k, transform: `translateY(${(1 - k) * 12}px)` };
+  if (m.t === "nota") return <Nota m={m} est={est} />;
   if (m.t === "sistema") return <div style={{ textAlign: "center", fontSize: 10.5, color: "#475467", margin: "6px 0", ...est }}>{m.x}</div>;
   const env = m.t === "enviada";
   return (
@@ -85,14 +106,23 @@ const Bolha: React.FC<{ m: Msg }> = ({ m }) => {
     </div>
   );
 };
-export const Conversa: React.FC<{ msgs: Msg[]; rola?: number; atribuido?: string }> = ({ msgs, rola = 0, atribuido }) => (
-  <TelaCel ativo="Simplí Chat" fixo={
+const Composer: React.FC = () => (
+  <div style={{ position: "absolute", left: 0, right: 0, bottom: 56, height: 50, background: "#FFFFFF", borderTop: `1px solid ${COR_CRM.borda}`, display: "flex", alignItems: "center", gap: 9, padding: "0 9px", zIndex: 4 }}>
+    <div style={{ width: 30, height: 30, borderRadius: 15, background: COR_CRM.cinza, display: "flex", alignItems: "center", justifyContent: "center" }}><Icone nome="mais" tam={15} cor="#344054" /></div>
+    <div style={{ flex: 1, height: 30, borderRadius: 9, border: `1px solid ${COR_CRM.borda}`, background: "#F9FAFB", display: "flex", alignItems: "center", padding: "0 10px", fontSize: 13, color: COR_CRM.apagado }}>Mensagem...</div>
+    <Icone nome="microfone" tam={15} cor="#475467" />
+    <Icone nome="cadeado" tam={15} cor="#475467" />
+    <div style={{ width: 30, height: 30, borderRadius: 15, background: "#667085", display: "flex", alignItems: "center", justifyContent: "center" }}><Icone nome="enviar" tam={14} cor="#FFFFFF" /></div>
+  </div>
+);
+export const Conversa: React.FC<{ msgs: Msg[]; rola?: number; atribuido?: string; composer?: boolean }> = ({ msgs, rola = 0, atribuido, composer }) => (
+  <TelaCel ativo="Simplí Chat" fixo={<>{composer ? <Composer /> : null}
     <div style={{ position: "absolute", left: 0, right: 0, top: 48, height: 46, background: "#FFFFFF", borderBottom: `1px solid ${COR_CRM.borda}`, display: "flex", alignItems: "center", gap: 8, padding: "0 11px", zIndex: 4 }}>
       <Icone nome="voltar" tam={16} cor={COR_CRM.suave} />
       <div style={{ width: 30, height: 30, borderRadius: 15, background: "#EAECEF", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, fontWeight: 600 }}>MO</div>
       <div style={{ flex: 1 }}><div style={{ fontSize: 13.5, fontWeight: 600, lineHeight: 1.15 }}>Marcos Oliveira</div><div style={{ fontSize: 10.5, color: COR_CRM.suave }}>+5581900001234</div></div>
       <span style={{ fontSize: 11, border: `1px solid ${COR_CRM.borda}`, borderRadius: 6, padding: "3px 7px", color: "#344054" }}>{atribuido ?? "Atribuir"}</span>
-    </div>
+    </div></>
   }>
     <div style={{ paddingTop: 44, transform: `translateY(${-rola}px)` }}>{msgs.map((m, i) => <Bolha key={i} m={m} />)}</div>
   </TelaCel>
@@ -392,14 +422,14 @@ export const FimV: TelaV = ({ c }) => {
 };
 
 // ---------- visuais dos ganchos
-const Pilha: React.FC<{ k: number; antes: React.ReactNode; depois: React.ReactNode }> = ({ k, antes, depois }) => (
+export const Pilha: React.FC<{ k: number; antes: React.ReactNode; depois: React.ReactNode }> = ({ k, antes, depois }) => (
   <div style={{ position: "relative", width: 900, height: 310, fontFamily }}>
     <div style={{ position: "absolute", inset: 0, boxSizing: "border-box", borderRadius: 22, border: "2px solid #2A2F2B", background: "#141815", padding: "36px 40px", opacity: 1 - k, display: "flex", flexDirection: "column", justifyContent: "center" }}>{antes}</div>
     <div style={{ position: "absolute", inset: 0, boxSizing: "border-box", borderRadius: 22, border: `2px solid ${VERDE}`, background: "#141815", padding: "36px 40px", opacity: k, transform: `scale(${0.94 + 0.06 * k})`, boxShadow: "0 0 60px rgba(60,224,30,0.25)", display: "flex", flexDirection: "column", justifyContent: "center" }}>{depois}</div>
   </div>
 );
-const L1: React.FC<{ children: React.ReactNode; c?: string }> = ({ children, c = "white" }) => <div style={{ ...TITULO, fontSize: 62, lineHeight: 1.12, color: c }}>{children}</div>;
-const L2: React.FC<{ children: React.ReactNode }> = ({ children }) => <div style={{ fontWeight: 600, fontSize: 40, color: CINZA, marginTop: 12 }}>{children}</div>;
+export const L1: React.FC<{ children: React.ReactNode; c?: string }> = ({ children, c = "white" }) => <div style={{ ...TITULO, fontSize: 62, lineHeight: 1.12, color: c }}>{children}</div>;
+export const L2: React.FC<{ children: React.ReactNode }> = ({ children }) => <div style={{ fontWeight: 600, fontSize: 40, color: CINZA, marginTop: 12 }}>{children}</div>;
 export const V1: Visual = ({ k }) => <Pilha k={k} antes={<><L1 c="#FF8A80">23h07</L1><L2>Cliente sem resposta</L2></>} depois={<><L1 c={VERDE}>23h07</L1><L2>Respondido pelo agente de IA</L2></>} />;
 export const V2: Visual = ({ k }) => <Pilha k={k} antes={<><L1>R$ 6.840,00</L1><L2>Orçamento parado há 5 dias</L2></>} depois={<><L1 c={VERDE}>Follow-up 1</L1><L2>Tarefa na lista do vendedor</L2></>} />;
 export const V3: Visual = ({ k }) => <Pilha k={k} antes={<><L1>Quem é esse cliente?</L1><L2>Nenhum histórico à mão</L2></>} depois={<><L1 c={VERDE}>R$ 8.055,40</L1><L2>2 compras · linha do tempo completa</L2></>} />;
