@@ -1,10 +1,11 @@
 # Gera a voz da Ana (edge-tts) para cada fala do roteiro e grava o tempo de cada palavra.
 # Uso: <venv>/bin/python -I scripts/gerar-voz.py scripts/falas-verbas.json public/voz/verbas src/voz-verbas.json
 # Saída: um mp3 por fala + JSON {id: {dur, palavras: [[ini, fim, palavra], ...]}} em segundos.
-# Só regera a fala cujo texto mudou (o texto usado fica gravado no JSON).
+# Só regera a fala quando muda o texto do roteiro ou o texto enviado à síntese.
 import asyncio
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -16,6 +17,8 @@ from edge_tts import communicate as _comunicacao
 # frases curtas ou ambíguas ("Bora simplificar?"), segue essa marca e fala com sotaque americano.
 # Forçamos pt-BR no SSML. LINGUA_SSML só existe para o teste de sotaque (scripts/validar-sotaque).
 LINGUA = os.environ.get("LINGUA_SSML", "pt-BR")
+VOZ_DA_ANA = "pt-BR-ThalitaMultilingualNeural"
+MARCA_AGENTIC = re.compile(r"\bAg[eê]ntic,?\s+Office\b", re.IGNORECASE)
 _mkssml = _comunicacao.mkssml
 _comunicacao.mkssml = lambda tc, texto: _mkssml(tc, texto).replace("xml:lang='en-US'", f"xml:lang='{LINGUA}'")
 
@@ -46,15 +49,26 @@ def main():
     os.makedirs(pasta, exist_ok=True)
     antigo = json.load(open(saida)) if os.path.exists(saida) else {}
     novo = {}
+    grafias = {"Agêntic": "Agentic", **cfg.get("grafias", {})}
     for fala in cfg["falas"]:
         arq = os.path.join(pasta, f"{fala['id']}.mp3")
+        texto = fala["texto"]
+        voz = fala.get("voz", cfg["voz"])
+        texto_sintese = MARCA_AGENTIC.sub("Agêntic, Office", texto) if voz == VOZ_DA_ANA else texto
         ant = antigo.get(fala["id"])
-        if ant and ant.get("texto") == fala["texto"] and ant.get("lingua") == LINGUA and ant.get("voz") == fala.get("voz") and os.path.exists(arq):
+        if (
+            ant
+            and ant.get("texto") == texto
+            and ant.get("texto_sintese", texto) == texto_sintese
+            and ant.get("lingua") == LINGUA
+            and ant.get("voz") == fala.get("voz")
+            and os.path.exists(arq)
+        ):
             novo[fala["id"]] = ant
             continue
         for tentativa in range(6):  # o serviço às vezes devolve vazio
             try:
-                palavras = asyncio.run(gerar(fala["texto"], fala.get("voz", cfg["voz"]), fala.get("velocidade", cfg["velocidade"]), arq))
+                palavras = asyncio.run(gerar(texto_sintese, voz, fala.get("velocidade", cfg["velocidade"]), arq))
                 break
             except edge_tts.exceptions.NoAudioReceived:
                 if tentativa == 5:
@@ -62,9 +76,16 @@ def main():
                 time.sleep(10 * (tentativa + 1))
         # grafia fonética só na voz: a legenda e as marcas usam a palavra certa ("Nôuxan" -> "Notion")
         for pal in palavras:
-            for fon, certa in cfg.get("grafias", {}).items():
+            for fon, certa in grafias.items():
                 pal[2] = pal[2].replace(fon, certa)
-        novo[fala["id"]] = {"texto": fala["texto"], "lingua": LINGUA, **({"voz": fala["voz"]} if "voz" in fala else {}), "dur": round(duracao(arq), 3), "palavras": palavras}
+        novo[fala["id"]] = {
+            "texto": texto,
+            **({"texto_sintese": texto_sintese} if texto_sintese != texto else {}),
+            "lingua": LINGUA,
+            **({"voz": fala["voz"]} if "voz" in fala else {}),
+            "dur": round(duracao(arq), 3),
+            "palavras": palavras,
+        }
         print(f"{fala['id']}: {novo[fala['id']]['dur']:.2f} s, {len(palavras)} palavras")
         json.dump({**antigo, **novo}, open(saida, "w"), ensure_ascii=False, indent=1)  # não perde o progresso se o serviço falhar
     json.dump(novo, open(saida, "w"), ensure_ascii=False, indent=1)

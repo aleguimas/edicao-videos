@@ -4,7 +4,7 @@ Vídeos 16:9 dos módulos do Agentic Office, apresentados pela Ana, a Assistente
 
 - **Telas:** recriadas em React (`src/agentic/App.tsx` + `src/<módulo>/Telas.tsx`) com nomes e números **fictícios** (`src/<módulo>/dados.ts`). Os prints do manual vêm de cliente real: servem só de referência.
 - **Avatar:** fotos oficiais da Ana em `../ana-simplí/`, copiadas reduzidas para `public/midia/`.
-- **Voz:** edge-tts, voz `pt-BR-ThalitaMultilingualNeural`. Escreva "Agentic, Office" com vírgula, porque sem ela a voz emenda as duas palavras.
+- **Voz** com edge-tts e `pt-BR-ThalitaMultilingualNeural`. O gerador usa “Agêntic, Office” na síntese para acentuar **gên** e preservar a pausa entre as palavras. Os roteiros aceitam “Agentic Office” e “Agentic, Office”, e as legendas mantêm o nome da marca.
 - **Sincronia:** cada clique, campo e movimento de câmera é marcado pela palavra falada (`marca(fala, "palavra")`).
 
 ## Composições
