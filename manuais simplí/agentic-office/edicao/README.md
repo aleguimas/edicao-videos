@@ -3,7 +3,7 @@
 Vídeos 16:9 dos módulos do Agentic Office, apresentados pela Ana, a Assistente de IA da Simplí.
 
 - **Telas:** recriadas em React (`src/agentic/App.tsx` + `src/<módulo>/Telas.tsx`) com nomes e números **fictícios** (`src/<módulo>/dados.ts`). Os prints do manual vêm de cliente real: servem só de referência.
-- **Avatar** com os arquivos 2.0 da Ana. O retrato `ana-verde-2.0.jpg` é usado no avatar de canto. A foto de escritório fica em `ana-reuniao-2.0.jpg`. As versões para edição estão em `public/midia/` e os originais PNG em `../ana-simplí/`.
+- **Avatar** com os arquivos 2.0 da Ana. O retrato `ana-bracos-2.0.jpg` é usado no avatar de canto. A foto da Ana em reunião fica em `ana-reuniao-2.0.jpg` e o retrato com fundo verde fica em `ana-verde-2.0.jpg`. As versões para edição estão em `public/midia/` e os originais PNG em `../ana-simplí/`.
 - **Voz** com edge-tts e `pt-BR-ThalitaMultilingualNeural`. O gerador usa “Agêntic, Office” na síntese para acentuar **gên** e preservar a pausa entre as palavras. Os roteiros aceitam “Agentic Office” e “Agentic, Office”, e as legendas mantêm o nome da marca.
 - **Sincronia:** cada clique, campo e movimento de câmera é marcado pela palavra falada (`marca(fala, "palavra")`).
 
