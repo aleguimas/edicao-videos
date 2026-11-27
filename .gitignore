@@ -51,3 +51,6 @@ recnplay/analise/*.err
 **/.remotion/
 manuais simplí/**/*.docx
 manuais simplí/**/public/trilha.mp3
+
+# Curso (roteiros, oferta e gravações): fica só na máquina — o repositório é público
+curso edicao/

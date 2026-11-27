@@ -1,18 +1,35 @@
 # Edição de vídeos — Simplí
 
-Vídeos curtos de conteúdo (Reels/TikTok/Shorts) editados com [Remotion](https://www.remotion.dev).
+Vídeos de conteúdo (Reels/TikTok/Shorts, vídeos longos e manuais) editados com [Remotion](https://www.remotion.dev).
 
-- `.claude/skills/video-conteudo-simpli/` — skill com o fluxo completo de edição (scripts + template)
-- `video-ia-falhou/` — projeto do vídeo "A IA falhou?" (referência do padrão)
+## Estrutura
+
+- `.claude/skills/` — skills com os fluxos de edição (scripts + templates)
 - `logos/` — logos da Simplí
-- `capa-video-ia-falhou.png` — capa do vídeo
+- `modelo/` — base copiada para cada vídeo novo
+- `scripts/remotion.sh` — atalho usado pelos comandos `npm run`
+- `recnplay/`, `revestir/`, `tramontina/`, `vibe-coding/`, `workshop-cuiaba/`, `manuais simplí/` — projetos anteriores, cada um com o próprio `package.json` na pasta `edicao/`
 
-## Rodar um projeto
+## Criar um vídeo novo
+
+Os vídeos novos usam uma única instalação, na raiz do repositório.
 
 ```bash
-cd video-ia-falhou
 npm i
-zsh scripts/preparar.sh          # recria a mídia a partir de ../originais/IMG_6273.MOV
+npm run novo -- meu-video                  # copia modelo/ para meu-video/
+npm run studio -- meu-video                # abre o Remotion Studio
+npm run render -- meu-video MyVideo        # gera meu-video/out/MyVideo.mp4
+npm run still -- meu-video MyVideo         # gera meu-video/out/MyVideo.png
+npm run typecheck
+```
+
+No macOS, o Chrome headless não roda de dentro de `~/Documents`. Se ele estiver em `~/.local/remotion/`, o `remotion.config.ts` o usa automaticamente.
+
+## Rodar um projeto anterior
+
+```bash
+cd tramontina/edicao
+npm i
 npx remotion studio
 ```
 

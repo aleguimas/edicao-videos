@@ -1,0 +1,23 @@
+{
+  "name": "edicao-videos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "novo": "zsh scripts/remotion.sh novo",
+    "studio": "zsh scripts/remotion.sh studio",
+    "render": "zsh scripts/remotion.sh render",
+    "still": "zsh scripts/remotion.sh still",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.547",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.547"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
