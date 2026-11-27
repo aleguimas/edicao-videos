@@ -29,7 +29,7 @@ export const AnaPip: React.FC<{ readonly fala: Fala; readonly entra?: number; re
         bottom: 56,
         width: tamanho,
         height: tamanho,
-        transform: `scale(${s * (1 + e * 0.025)})`,
+        transform: `scale(${s})`,
         transformOrigin: "100% 100%",
         opacity: s,
       }}
@@ -47,7 +47,7 @@ export const AnaPip: React.FC<{ readonly fala: Fala; readonly entra?: number; re
           background: "#1a1d1b",
         }}
       >
-        <Img src={staticFile("midia/ana-bracos.jpg")} style={{ width: "100%", height: "auto", transform: "translateY(-4%) scale(1.75)", transformOrigin: "50% 18%" }} />
+        <Img src={staticFile("midia/ana-verde-2.0.jpg")} style={{ width: "100%", height: "auto", transform: "translateY(-4%) scale(1.75)", transformOrigin: "50% 18%" }} />
       </div>
       <div
         style={{
